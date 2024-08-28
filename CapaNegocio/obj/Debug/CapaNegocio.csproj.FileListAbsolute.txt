@@ -1,0 +1,455 @@
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\CapaDatos.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\CapaEntidad.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\Firebase.Auth.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\Firebase.Storage.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\CapaDatos.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\CapaEntidad.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\WebDriver.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\ProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\ProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\ProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\ProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\ProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\ProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\WorkduckReports\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\WorkduckReports\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\WorkduckReports\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\WorkduckReports\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\WorkduckReports\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\WorkduckReports\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\WorkduckReports\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\WebDriver.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\WorkduckReports\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\WorkduckReports\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\WorkduckReports\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\WorkduckReports\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\WorkduckReports\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\WorkduckReports\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\WorkduckReports\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\WorkduckReports\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\WorkduckReports\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\WorkduckReports\CapaNegocio\bin\Debug\EPPlus.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\EPPlus.Interfaces.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\EPPlus.System.Drawing.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\WorkduckReports\CapaNegocio\bin\Debug\EPPlus.xml
+D:\WorkduckReports\CapaNegocio\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\WebDriver.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.Interfaces.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.System.Drawing.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.xml
+D:\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\NUnit3.TestAdapter.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\NUnit3.TestAdapter.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.api.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.engine.core.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\testcentric.engine.metadata.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Firebase.Auth.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Firebase.Storage.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.framework.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.AccessControl.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Permissions.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Principal.Windows.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\WebDriver.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\WebDriver.Support.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.Interfaces.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.System.Drawing.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\nunit.framework.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.AccessControl.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Permissions.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\System.Security.Principal.Windows.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\EPPlus.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaNegocio\obj\Debug\CapaNegocio.pdb

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROYECTOS EN DESARROLLO/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_login.xml" value="0.34479166666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_recover_pass.xml" value="0.34479166666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_splash.xml" value="0.34479166666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/app_is_online_network.xml" value="0.34479166666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/dropdown_item_category.xml" value="0.34479166666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/dropdown_item_role.xml" value="0.34479166666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2715" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/back_to_home_button.xml" value="0.3125" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/barcode.xml" value="0.274" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/bg_dialog_background.xml" value="0.2685" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/bg_error_background.xml" value="0.2685" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/bg_error_background_data.xml" value="0.245" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/bottom_nav_color_selector.xml" value="0.2535" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/button_error_background.xml" value="0.2955" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/button_neutral_background.xml" value="0.2565" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/button_success_background.xml" value="0.2565" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/button_warning_background.xml" value="0.2565" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/dialog_background.xml" value="0.2575" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/error_background.xml" value="0.2565" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_account.xml" value="0.2535" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_account_circle.xml" value="0.3495" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_add.xml" value="0.2355" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_article.xml" value="0.2535" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_cached.xml" value="0.249" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_category.xml" value="0.2535" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_close.xml" value="0.2765" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_color.xml" value="0.2755" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_content.xml" value="0.2345" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_date.xml" value="0.1855" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_delete.xml" value="0.225" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_edit.xml" value="0.2345" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_email.xml" value="0.186" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_feed.xml" value="0.18" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_home.xml" value="0.1755" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_image.xml" value="0.2755" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2715" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_lock.xml" value="0.186" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_power_settings.xml" value="0.234" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_search.xml" value="0.337" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_settings.xml" value="0.2535" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_signal_wifi.xml" value="0.249" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_users.xml" value="0.2715" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/ic_warning.xml" value="0.2715" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/icon_main.xml" value="0.3465" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/layout_dropdown_item.xml" value="0.2445" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/profile_back_button.xml" value="0.3125" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/profile_bk.xml" value="0.3125" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/profile_round.xml" value="0.3125" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/round_corner.xml" value="0.254" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/side_nav_bar.xml" value="0.219" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/splash_background.xml" value="0.219" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/success_background.xml" value="0.2565" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/title_error.xml" value="0.2685" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/title_success.xml" value="0.2685" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/drawable/warning_background.xml" value="0.2565" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_recover_pass.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/app_bar_main.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/app_is_online_network.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/content_login.xml" value="0.24114583333333334" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/content_main.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/dropdown_item.xml" value="0.2630208333333333" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/dropdown_item_category.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/dropdown_item_user.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_add_product.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_add_user.xml" value="0.25" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_article.xml" value="0.27760416666666665" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_category.xml" value="0.2635416666666667" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_config.xml" value="0.2359375" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_gallery.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_product.xml" value="0.2" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_second.xml" value="0.24114583333333334" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_settings.xml" value="0.24947916666666667" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_slideshow.xml" value="0.24114583333333334" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_user.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/fragment_users.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/item_article.xml" value="0.6" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/item_category.xml" value="0.6" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/item_product.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/item_user.xml" value="0.25" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_colo_dialog.xml" value="0.25" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_color_dialog.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_error_data_dialog.xml" value="0.4" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_error_dialog.xml" value="0.4" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_error_dialog_data.xml" value="0.25" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_picture_dialog.xml" value="0.25" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_product_dialog.xml" value="0.264" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_success_dialog.xml" value="0.4" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/layout_warning_dialog.xml" value="0.2916666666666667" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/lyt_error.xml" value="0.2635416666666667" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/nav_header_main.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/search_view_layout.xml" value="0.3614583333333333" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/layout/toolbar.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/menu/main.xml" value="0.26666666666666666" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/menu/toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/menu/toolbar_search_menu.xml" value="0.4" />
+        <entry key="..\:/PROYECTOS EN DESARROLLO/NEW  PROYECTO - SISTEMAS - 2022/ANDROID - NODE - MONGO - APIREST - CREATIVE-WORK/creative/app/src/main/res/menu/toolbar_search_view.xml" value="0.3614583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,127 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ferreland" parent="Theme.Material3.Light">
+
+    </style>
+    <style name="Theme.Creative" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryColor</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryTextColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+
+        <!-- Status bar color. -->
+        <!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        <item name="android:navigationBarColor">@color/secondaryTextColor</item>
+
+
+        <!-- Customize your theme here. -->
+
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+
+        <item name="switchStyle">@style/Widget.App.Switch</item>
+
+    </style>
+
+    <style name="Theme.ButtonChanger" parent="Theme.Creative">
+        <item name="background">@drawable/button_error_background</item>
+    </style>
+
+    <!--    <style name="Theme.Creative.NoActionBar">-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="windowNoTitle">true</item>-->
+    <!--    </style>-->
+
+    <style name="Theme.Creative.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Creative.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--    <style name="Theme.Creative.SplashScream" parent="Theme.MaterialComponents.NoActionBar">-->
+    <!--        <item name="android:windowBackground">@drawable/splash_background</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="Theme.Creative.SplashScream" parent="Theme.SplashScreen">-->
+    <!--        <item name="windowSplashScreenBackground">@color/primary</item>-->
+    <!--        <item name="windowSplashScreenAnimatedIcon">@drawable/icon_splash</item>-->
+    <!--        <item name="postSplashScreenTheme">@style/Theme.Creative</item>-->
+    <!--        <item name="android:text">Bienvenido</item>-->
+
+    <!--    </style>-->
+
+
+    <style name="Theme.Creative.SplashScream" parent="Theme.Creative">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--        <item name="android:windowBackground">@drawable/splash_background</item>-->
+        <!--        <item name="windowActionBar">false</item>-->
+        <!--        <item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="Theme.Creative.AlertDialogCustom" parent="Theme.MaterialComponents.Dialog.Alert">
+        <!--        <item name="android:textColor">#00FF00</item>-->
+        <!--        <item name="android:typeface">monospace</item>-->
+        <!--        <item name="android:textSize">10sp</item>-->
+    </style>
+
+
+    <style name="BottomNavigationViewTextStyleActive" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppinssemibold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="MyWidget.MaterialComponents.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.BottomNavView</item>
+    </style>
+
+    <style name="ThemeOverlay.BottomNavView" parent="">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnSurface">@color/dark_secundary</item>
+    </style>
+
+
+    <!--  AlertDialog  -->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
+    </style>
+
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5sp</item>
+    </style>
+
+    <!--    Toolbar Main   -->
+    <style name="ToolbarTextAppearance" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/poppinssemibold</item>
+    </style>
+
+    <!--  Toolbar Product  -->
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="voiceIcon">@drawable/ic_add</item>
+        <item name="closeIcon">@drawable/ic_close</item>
+        <item name="searchHintIcon">@drawable/ic_search</item>
+        <item name="fontFamily">@font/poppinssemibold</item>
+    </style>
+
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">@color/black_de</item>
+        <item name="colorSecondary">@color/blue</item>
+    </style>
+    <style name="Theme.Creative.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.empresa.ferreland">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Creative"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.CompraProducto"
+            android:exported="true"
+            android:theme="@style/Theme.ferreland"
+            android:parentActivityName=".ui.MenuProductos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MenuProductos" />
+        </activity>
+
+        <activity
+            android:name=".ui.VerProducto"
+            android:exported="true"
+            android:theme="@style/Theme.ferreland"
+            android:parentActivityName=".ui.ListarProductos">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ui.ListarProductos" />
+    </activity>
+        <activity
+            android:name=".ui.EditarProducto"
+            android:exported="true"
+            android:theme="@style/Theme.ferreland"
+            android:parentActivityName=".ui.ListarProductos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.ListarProductos" />
+        </activity>
+
+
+        <activity
+            android:name=".ui.AgregarProducto"
+            android:exported="true"
+            android:theme="@style/Theme.ferreland"
+            android:parentActivityName=".ui.MenuProductos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MenuProductos" />
+        </activity>
+
+        <activity
+            android:name=".ui.ListarProductos"
+            android:exported="true"
+            android:theme="@style/Theme.ferreland"
+            android:parentActivityName=".ui.MenuProductos">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ui.MenuProductos" />
+        </activity>
+
+        <activity
+            android:name=".ui.MenuProductos"
+            android:exported="true"
+            android:theme="@style/Theme.ferreland"
+            android:parentActivityName=".ui.MainActivity">
+            <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value=".ui.MainActivity" />
+    </activity> />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Creative.SplashScream">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Creative.SplashScream" />
+        <activity
+            android:name=".ui.RegistrarseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AdminActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

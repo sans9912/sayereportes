@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Ferreland</string>
+    <string name="bienvenido">Bienvenido</string>
+
+    <!--    <string name="navigation_drawer_open">Open navigation drawer</string>-->
+    <!--    <string name="navigation_drawer_close">Close navigation drawer</string>-->
+
+
+    <!-- TODO: Menu Button Navigarion -->
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_producto">Catálogo</string>
+    <string name="menu_usuario">Usuarios</string>
+    <string name="menu_venta">Ventas</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_config">Configuracion</string>
+
+
+    <!-- TODO: AlertDialog  -->
+    <string name="error_title">Error</string>
+    <string name="success_title">Aceptado</string>
+    <string name="warning_title">Advertencia</string>
+    <string name="acept">Aceptar</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+
+    <!-- TODO: NETWORK   -->
+    <string name="title_connected">Conectado</string>
+    <string name="title_noconnected">Sin conexion a internet</string>
+    <string name="title_error_conexion">Error de conexion</string>
+    <string name="title_dialog_connection">Servidores inalcanzables</string>
+    <string name="title_dialog_internet_title">Sin internet</string>
+    <string name="title_no_network">Sin conexion a internet</string>
+    <string name="content_dialog_connection_description">No podemos conectarnos con nuestro servidor \n Asegúrese de haber configurado sus claves y parámetros como se documenta</string>
+    <string name="content_dialog_internet_description">Parece que no tienes conexión a internet, esta aplicación requiere internet para cargar el contenido.</string>
+
+
+    <!-- TODO: FORMULARIO   -->
+    <string name="title_error_correo">El correo es obligatorio</string>
+    <string name="title_error_nombre">El nombre es obligatorio</string>
+    <string name="title_error_apellido">El apellido es obligatorio</string>
+    <string name="title_correo_valid">Ingrese un correo valido</string>
+    <string name="title_error_password">La contraseña es obligatoria</string>
+
+
+    <!--  TODO: OTROS  -->
+    <string name="forgout_password">Olvidaste tu Contraseña.?</string>
+    <string name="btn_title_session">Iniciar Session</string>
+    <string name="btn_title_registrarse">Registrarse</string>
+    <string name="btn_title_registrar">Registrar</string>
+    <string name="btn_title_productos">Productos</string>
+
+
+    <string name="hint_correo">Correo</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="title_session">Bienvenido</string>
+    <string name="title_registrarse">Registrarse</string>
+
+    <string name="sub_title_session">Iniciar session para continuar</string>
+    <string name="sub_title_registrarse">Ingrese sus datos personales</string>
+    <string name="sub_title_huella">Iniciar sesión con huella digital</string>
+
+
+    <string name="activo">Activo</string>
+    <string name="inactivo">Inactivo</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="title_activity_huella">Huella</string>
+    <string name="title_activity_login">Login</string>
+    <string name="c_digo_de_barras">Código De Barras</string>
+    <string name="compra_producto">Compra Producto</string>
+    <string name="cat_logo">Catálogo</string>
+
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral95"
+    tools:context=".ui.VerProducto">
+
+    <Spinner
+        android:id="@+id/SEstadoM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtStockM"
+        app:layout_constraintStart_toStartOf="@+id/txtStockM"
+        app:layout_constraintTop_toBottomOf="@+id/txtStockM" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#FFFCFD"
+        android:shadowRadius="6"
+        android:text="Imágen:"
+        android:textColor="#EA1E63"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SEstadoM" />
+
+    <EditText
+        android:id="@+id/txtDescripcionM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtNombreM"
+        app:layout_constraintStart_toStartOf="@+id/txtNombreM"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreM" />
+
+    <Spinner
+        android:id="@+id/SmarcaM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F4511E"
+        app:layout_constraintEnd_toEndOf="@+id/txtDescripcionM"
+        app:layout_constraintStart_toStartOf="@+id/txtDescripcionM"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcionM"
+        android:textColor="#F4511E"/>
+
+    <Spinner
+        android:id="@+id/SCategoriaM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F4511E"
+        app:layout_constraintEnd_toEndOf="@+id/SmarcaM"
+        app:layout_constraintStart_toStartOf="@+id/SmarcaM"
+        app:layout_constraintTop_toBottomOf="@+id/SmarcaM" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:shadowColor="@color/material_dynamic_neutral50"
+        android:shadowRadius="15"
+        android:text="Producto"
+        android:textColor="#191919"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/btnModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#EA1E63"
+        android:text="Modificar"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnImagenA"
+        app:rippleColor="#AF3F3F" />
+
+    <EditText
+        android:id="@+id/txtNombreM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/txtPrecioM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/SCategoriaM"
+        app:layout_constraintStart_toStartOf="@+id/SCategoriaM"
+        app:layout_constraintTop_toBottomOf="@+id/SCategoriaM" />
+
+    <EditText
+        android:id="@+id/txtStockM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Stock"
+        android:inputType="number"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtPrecioM"
+        app:layout_constraintStart_toStartOf="@+id/txtPrecioM"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecioM" />
+
+
+    <ImageButton
+        android:id="@+id/btnImagenA"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagenVer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imagenVer"
+        app:layout_constraintTop_toTopOf="@+id/imagenVer"
+        app:srcCompat="@drawable/carpeta" />
+
+    <ImageView
+        android:id="@+id/imagenVer"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnModificar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txtTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+        app:srcCompat="@drawable/herramientas" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:foregroundGravity="bottom|right"
+        app:backgroundTint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toEndOf="@+id/btnModificar"
+        app:layout_constraintTop_toBottomOf="@+id/btnImagenA"
+        app:srcCompat="@drawable/ic_edit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

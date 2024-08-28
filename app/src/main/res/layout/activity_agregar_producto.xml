@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral95"
+    tools:context=".ui.AgregarProducto">
+
+    <EditText
+        android:id="@+id/txtcodB"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:hint="@string/c_digo_de_barras"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toStartOf="@+id/btnEscanear"
+        app:layout_constraintStart_toStartOf="@+id/txtStockM"
+        app:layout_constraintTop_toBottomOf="@+id/txtStockM" />
+
+    <Spinner
+        android:id="@+id/SmarcaM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/SCategoriaM"
+        app:layout_constraintStart_toStartOf="@+id/SCategoriaM"
+        app:layout_constraintTop_toBottomOf="@+id/SCategoriaM" />
+
+    <Spinner
+        android:id="@+id/SCategoriaM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtDescripcionM"
+        app:layout_constraintStart_toStartOf="@+id/txtDescripcionM"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcionM" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#FFC4D8"
+        android:shadowRadius="6"
+        android:text="Imágen:"
+        android:textColor="#EA1E63"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcodB" />
+
+    <EditText
+        android:id="@+id/txtDescripcionM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtNombreM"
+        app:layout_constraintStart_toStartOf="@+id/txtNombreM"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreM" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:shadowColor="@color/material_dynamic_neutral50"
+        android:shadowRadius="15"
+        android:text="Agregar Producto"
+        android:textColor="#191919"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAgregarProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#EA1E63"
+        android:text="Agregar Producto"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnImagenA"
+        app:rippleColor="#AF3F3F" />
+
+    <EditText
+        android:id="@+id/txtNombreM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/txtPrecioM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/SmarcaM"
+        app:layout_constraintStart_toStartOf="@+id/SmarcaM"
+        app:layout_constraintTop_toBottomOf="@+id/SmarcaM" />
+
+    <EditText
+        android:id="@+id/txtStockM"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Stock"
+        android:inputType="number"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtPrecioM"
+        app:layout_constraintStart_toStartOf="@+id/txtPrecioM"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecioM" />
+
+    <ImageButton
+        android:id="@+id/btnImagenA"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imagenVer"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+        app:srcCompat="@drawable/carpeta" />
+
+    <ImageButton
+        android:id="@+id/btnEscanear"
+        android:layout_width="93dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/txtcodB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtcodB"
+        app:srcCompat="@drawable/foto" />
+
+    <ImageView
+        android:id="@+id/imagenVer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnImagenA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnImagenA"
+        app:layout_constraintTop_toTopOf="@+id/btnImagenA"
+        app:srcCompat="@drawable/herramientas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

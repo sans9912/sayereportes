@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.empresa.ferreland.Fragment.InicioFragment">
+
+    <include layout="@layout/app_is_online_network" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/load_indicator_view_cont"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbarSize="@dimen/_100sdp"
+        android:visibility="gone"
+        app:indicatorColor="@color/dark"
+        app:indicatorName="BallClipRotateMultipleIndicator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btnImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="200dp"
+        android:background="@color/material_dynamic_neutral95"
+        android:src="@drawable/catalogar"
+        android:textAlignment="textEnd"
+        android:textDirection="firstStrong"
+        android:tooltipText="Productos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <TextView
+        android:id="@+id/txtTituloPro"
+        android:layout_width="130dp"
+        android:layout_height="36dp"
+        android:shadowColor="#FFC4D8"
+        android:shadowRadius="6"
+        android:background="@color/material_dynamic_neutral95"
+        android:text="Productos"
+        android:textAlignment="center"
+        android:textColor="#EA1E63"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnImage"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/btnImage"
+        app:layout_constraintTop_toBottomOf="@+id/btnImage" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:shadowColor="#FFC4D8"
+        android:shadowRadius="6"
+        android:text="Bienvenido a Ferreland"
+        android:textColor="#EA1E63"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvToken" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

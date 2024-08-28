@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menui"
+        android:icon="@drawable/proda"
+        android:title="Menú Productos"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/agregarp"
+        android:icon="@drawable/proda"
+        android:title="Agregar Producto"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/listarP"
+        android:icon="@drawable/proda"
+        android:title="Listar Productos"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/compraP"
+        android:icon="@drawable/proda"
+        android:title="Compra Producto"
+        app:showAsAction="withText" />
+</menu>

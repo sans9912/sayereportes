@@ -1,0 +1,1243 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    <link rel="icon" type="image/png" sizes="500x500" href="~/Content/images/FerrelandLogoSFondo.png" />
+    @Styles.Render("~/Content/css")
+    @*@RenderSection("Styles", required: false)*@
+    @*@Scripts.Render("~/bundles/modernizr")*@
+<style>
+        .side-bar{
+         background: rgba(255, 255, 255, 0.1);
+         backdrop-filter: blur(15px);
+         width: 290px;
+         height: 100vh;
+         position: fixed;
+         top: 0;
+         left: -100%;
+         overflow-y: auto;
+         transition: 0.6s ease;
+         transition-property: left;
+        }
+
+        .side-bar.active{
+         left: 0;
+        }
+
+        .side-bar .menu{
+         width: 100%;
+         margin-top: 80px;
+        }
+
+        .side-bar .menu .item{
+         position: relative;
+         cursor: pointer;
+        }
+
+        .side-bar .menu .item a{
+         color: #fff;
+         font-size: 16px;
+         text-decoration: none;
+         display: block;
+         padding: 5px 30px;
+         line-height: 60px;
+        }
+
+        .side-bar .menu .item a:hover{
+         background: #8621F8;
+         transition: 0.3s ease;
+        }
+
+        .side-bar .menu .item i{
+         margin-right: 15px;
+        }
+
+        .side-bar .menu .item a .dropdown{
+         position: absolute;
+         right: 0;
+         margin: 20px;
+         transition: 0.3s ease;
+        }
+
+        .side-bar .menu .item .sub-menu{
+         background: rgba(255, 255, 255, 0.1);
+         display: none;
+        }
+
+        .side-bar .menu .item .sub-menu a{
+         padding-left: 80px;
+        }
+
+        .rotate{
+         transform: rotate(90deg);
+        }
+
+        .close-btn{
+         position: absolute;
+         color: #fff;
+         font-size: 20px;
+         right: 0;
+         margin: 25px;
+         cursor: pointer;
+        }
+
+        .menu-btn{
+         position: absolute;
+         color: #fff;
+         font-size: 20px;
+         margin: 25px;
+         cursor: pointer;
+        }
+
+        .main{
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 50px;
+        }
+
+        .main h1{
+         color: rgba(255, 255, 255, 0.8);
+         font-size: 60px;
+         text-align: center;
+         line-height: 80px;
+        }
+
+        @*@media (max-width: 900px){
+         .main h1{
+           font-size: 40px;
+           line-height: 60px;
+         }
+        }*@
+</style>
+</head>
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3 my-5" href="@Url.Action("Index","Home")">
+            <img src="~/Content/images/FerrelandLogoSFondo.png" width="150" height="150" />
+        </a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto me-0 me-md-3 my-2 my-md-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                @if (HttpContext.Current.Session != null)
+                {
+                    string NA = CapaPresentacionAdmin.Permisos.PermisosRolAttribute.ObtenerNombApel();
+                    if (CapaPresentacionAdmin.Permisos.PermisosRolAttribute.ObtenerIdRol() == 1)
+                    {
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#!"><b>Adminitrador: </b> @NA <br /><b>Email:</b> @User.Identity.Name</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="@Url.Action("CerrarSesion","Acceso")"><b>Cerrar Sesion</b></a></li>
+                        </ul>
+                    }
+                    else if (CapaPresentacionAdmin.Permisos.PermisosRolAttribute.ObtenerIdRol() == 2)
+                    {
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#!"><b>Jefe de Ventas: </b> @NA <br /><b>Email:</b> @User.Identity.Name</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="@Url.Action("CerrarSesion","Acceso")"><b>Cerrar Sesion</b></a></li>
+                        </ul>
+                    }
+                }
+                }
+
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark bg-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div id="MenuNavegacion" class="nav">
+                        @if (HttpContext.Current.Session != null)
+                        {
+                            if (CapaPresentacionAdmin.Permisos.PermisosRolAttribute.ObtenerIdRol() == 1)
+                            {
+                                <div class="sb-sidenav-menu-heading">Funciones Administrador</div>
+                                <a class="nav-link" href="@Url.Action("Dashboard","Home")">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                    Dashboard
+                                </a>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                                    Usuarios
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Usuarios","Home")">
+                                            <div class="sb-nav-link-icon">
+                                                <i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-gear" viewBox="0 0 16 16">
+                                                        <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
+                                                    </svg>
+                                                </i>
+                                            </div>
+                                            Editar Usuarios
+
+                                        </a>
+                                        <a class="nav-link" href="#" onclick="abrirModal(null)">
+                                            <div class="sb-nav-link-icon">
+                                                <i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                                                        <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                                        <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z" />
+                                                    </svg>
+                                                </i>
+                                            </div>
+                                            Registrar Usuario
+                                        </a>
+                                    </nav>
+                                </div>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsC" aria-expanded="false" aria-controls="collapseLayoutsC">
+                                    <div class="sb-nav-link-icon">
+                                        <i>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-badge" viewBox="0 0 16 16">
+                                                <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                                <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z" />
+                                            </svg>
+                                        </i>
+                                    </div>
+                                    Clientes
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayoutsC" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Clientes","Home")">
+                                            <div class="sb-nav-link-icon">
+                                                <i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-gear" viewBox="0 0 16 16">
+                                                        <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm.256 7a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Zm3.63-4.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
+                                                    </svg>
+                                                </i>
+                                            </div>
+                                            Editar Clientes
+                                        </a>
+                                    </nav>
+                                </div>
+                                <div class="sb-sidenav-menu-heading">Funciones de Mantenimiento</div>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsCa" aria-expanded="false" aria-controls="collapseLayoutsCa">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                    Categorias
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayoutsCa" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Categoria","Mantenedor")">Editar Categorias</a>
+                                        <a class="nav-link" href="#" onclick="abrirModalC(null)">Registrar Categoria</a>
+                                    </nav>
+                                </div>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsM" aria-expanded="false" aria-controls="collapseLayouts">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-bookmark"></i></div>
+                                    Marcas
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayoutsM" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Marca","Mantenedor")">Editar Marcas</a>
+                                        <a class="nav-link" href="#" onclick="abrirModalM(null)">Registrar Marca</a>
+                                    </nav>
+                                </div>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsP" aria-expanded="false" aria-controls="collapseLayouts">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
+                                    Productos
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayoutsP" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Producto","Mantenedor")">Editar Productos</a>
+                                        <a class="nav-link" href="#" onclick="abrirModalProduc(null)">Registrar Producto</a>
+                                    </nav>
+                                </div>
+
+
+                                @*<a class="nav-link" href="@Url.Action("Producto","Mantenedor")">
+                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
+                    Productos
+                </a>*@
+                                <a class="nav-link" href="@Url.Action("Compra","Mantenedor")">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-shopping-bag"></i></div>
+                                    Compras
+                                </a>
+                            }
+                            else if (CapaPresentacionAdmin.Permisos.PermisosRolAttribute.ObtenerIdRol() == 2)
+                            {
+                                <div class="sb-sidenav-menu-heading">Funciones Mantenimiento</div>
+                                <a class="nav-link" href="@Url.Action("Dashboard","Home")">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                    Dashboard
+                                </a>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                    Categorias
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Categoria","Mantenedor")">Editar Categorias</a>
+                                        <a class="nav-link" href="#" onclick="abrirModalC(null)">Registrar Categoria</a>
+                                    </nav>
+                                </div>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsM" aria-expanded="false" aria-controls="collapseLayouts">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-bookmark"></i></div>
+                                    Marcas
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayoutsM" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Marca","Mantenedor")">Editar Marcas</a>
+                                        <a class="nav-link" href="#" onclick="abrirModalM(null)">Registrar Marca</a>
+                                    </nav>
+                                </div>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsP" aria-expanded="false" aria-controls="collapseLayouts">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
+                                    Productos
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayoutsP" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="@Url.Action("Producto","Mantenedor")">Editar Productos</a>
+                                        <a class="nav-link" href="#" onclick="abrirModalProduc(null)">Registrar Producto</a>
+                                    </nav>
+                                </div>
+
+                                @*<a class="nav-link" href="@Url.Action("Producto","Mantenedor")">
+                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
+                    Productos
+                </a>*@
+                                <a class="nav-link" href="@Url.Action("Compra","Mantenedor")">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-shopping-bag"></i></div>
+                                    Compras
+                                </a>
+                            }
+
+
+                        }
+
+
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Sistema Web Ferreland by:</div>
+                    WorkDuck
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main class="bg-danger bg-opacity-10">
+                <div class="container-fluid px-4 ">
+                    @RenderBody()
+                </div>
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; Ferreland 2023</div>
+                        <div>
+                            <a href="#">Politica de Privacidad</a>
+                            &middot;
+                            <a href="#">Terminos &amp; Condiciones</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="modal fade" id="FormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Usuario</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <input id="txtid" type="hidden" value="0" />
+
+                    <div class="row g-2">
+
+
+                        <div class="col-sm-6">
+                            <label for="txtnombres" class="form-label">Nombres</label>
+                            <input type="text" class="form-control" id="txtnombres" autocomplete="off">
+                        </div>
+
+
+                        <div class="col-sm-6">
+                            <label for="txtapellidos" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="txtapellidos" autocomplete="off">
+                        </div>
+
+
+                        <div class="col-sm-6">
+                            <label for="txtcorreo" class="form-label">Correo</label>
+                            <input type="text" class="form-control" id="txtcorreo" autocomplete="off">
+                        </div>
+
+
+                        <div class="col-sm-6">
+                            <label for="cboactivo" class="form-label">Activo</label>
+                            <select id="cboactivo" class="form-select">
+                                <option value="1">Si</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-12">
+
+                            <div id="mensajeError" class="alert alert-danger" role="alert">
+                                A simple danger alert—check it out!
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="Guardar()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="FormModalC" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Categoria</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <input id="txtidc" type="hidden" value="0" />
+
+                    <div class="row g-1">
+
+
+                        <div class="col-sm-6">
+                            <label for="txtdescripcionc" class="form-label">Descripcion</label>
+                            <input type="text" class="form-control" id="txtdescripcionc" autocomplete="off">
+                        </div>
+
+
+                        <div class="col-sm-6">
+                            <label for="cboactivoc" class="form-label">Activo</label>
+                            <select id="cboactivoc" class="form-select">
+                                <option value="1">Si</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+
+                    <!--Mensaje de alerta-->
+                    <div class="row mt-2">
+                        <div class="col-12">
+
+                            <div id="mensajeErrorC" class="alert alert-danger" role="alert">
+                                A simple danger alert—check it out!
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="GuardarC()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="FormModalM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Marca</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <input id="txtidM" type="hidden" value="0" />
+
+                    <div class="row g-1">
+
+
+                        <div class="col-sm-6">
+                            <label for="txtdescripcionM" class="form-label">Descripcion</label>
+                            <input type="text" class="form-control" id="txtdescripcionM" autocomplete="off">
+                        </div>
+
+
+                        <div class="col-sm-6">
+                            <label for="cboactivoM" class="form-label">Activo</label>
+                            <select id="cboactivoM" class="form-select">
+                                <option value="1">Si</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+
+                    <!--Mensaje de alerta-->
+                    <div class="row mt-2">
+                        <div class="col-12">
+
+                            <div id="mensajeErrorM" class="alert alert-danger" role="alert">
+                                A simple danger alert—check it out!
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="GuardarM()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="FormModalProduc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Producto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <input id="txtidproduc" type="hidden" value="0" />
+
+                    <form id="contenedor" class="row">
+
+                        <div class="col-sm-3">
+                            <div class="mb-2">
+                                <img id="img_producto" height="197" width="200" class="border rounded mx-auto d-block img-fluid" />
+                            </div>
+                            <div class="mb-2">
+                                <input class="form-control" type="file" id="fileProducto" accept="image/png, image/jpg, image/jpeg" onchange="mostrarImagen(this)" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="mb-3">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="txtnombreproduc" name="nombre" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Descripcion</label>
+                                <textarea type="text" class="form-control" id="txtdescripcionproduc" name="descripcion" style="height:125px;resize:none"></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-3">
+                            <div class="mb-3">
+                                <label class="form-label">Marca</label>
+                                <select id="cbomarcaproduc" class="form-select">
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Categoria</label>
+                                <select id="cbocategoriaproduc" class="form-select">
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Precio</label>
+                                <input type="text" class="form-control" id="txtprecioproduc" name="precio" autocomplete="off" />
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-3">
+                            <div class="mb-3">
+                                <label class="form-label">Stock</label>
+                                <input type="number" class="form-control" id="txtstockproduc" name="stock" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Activo</label>
+                                <select id="cboactivoproduc" class="form-select">
+                                    <option value="1">Si</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Código</label>
+                                <input type="text" class="form-control" id="txtcodigo" name="codigo" autocomplete="off" />
+                            </div>
+                        </div>
+
+                    </form>
+
+
+
+                    <!--Mensaje de alerta-->
+                    <div class="row mt-2">
+                        <div class="col-12">
+
+                            <div id="mensajeErrorProduc" class="alert alert-danger" role="alert">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="GuardarProduc()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <
+<script>
+    var tabladata;
+    var filaSeleccionada;
+    function mostrarImagen(input) {
+        if (input.files) {
+
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $("#img_producto").attr("src", e.target.result).width(200).height(197)
+            }
+
+            reader.readAsDataURL(input.files[0]);
+            }
+
+        }
+
+        tabladata = $("#tabla").DataTable({
+            responsive: true,
+            ordering: false,
+            "ajax": {
+                url: '@Url.Action("ListarProducto", "Mantenedor")',
+                type: "GET",
+                dataType: "json"
+            },
+            "columns": [
+                {"data":"Nombre"},
+                { "data": "Descripcion" },
+                {
+                    "data": "oMarca", "render": function (data) {
+                      return data.Descripcion
+                    }
+                },
+                {
+                    "data": "oCategoria", "render": function (data) {
+                        return data.Descripcion
+                    }
+                },
+                { "data": "Precio" },
+                { "data": "Stock" },
+                { "data": "Codigo" },
+                {
+                    "data": "Activo", "render": function (valor) {
+                        if (valor) {
+                            return '<span class="badge bg-success">Si</span>'
+                        } else {
+                            return '<span class="badge bg-danger">No</span>'
+                        }
+                    }
+                },
+                {
+                    "defaultContent": '<button type="button" class="btn btn-primary btn-sm btn-editar"><i class="fas fa-pen"></i></button>',
+                    "orderable": false,
+                    "searchable": false,
+                    "width": "90px"
+                }
+
+            ],
+            "language": {
+                "url": "https://cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
+            }
+
+        });
+
+
+        jQuery.ajax({
+            url: '@Url.Action("ListarMarca", "Mantenedor")',
+            type: "GET",
+            data: null,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+
+                $("<option>").attr({ "value": "0","disabled":"true" }).text("Seleccionar").appendTo("#cbomarcaproduc");
+                $.each(data.data, function (index, item) {
+
+                    $("<option>").attr({ "value": item.IdMarca }).text(item.Descripcion).appendTo("#cbomarcaproduc");
+                })
+            },
+            error: function (error) {
+                console.log(error)
+            }
+        });
+
+
+          jQuery.ajax({
+            url: '@Url.Action("ListarCategorias", "Mantenedor")',
+            type: "GET",
+            data: null,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+
+                $("<option>").attr({ "value": "0", "disabled": "true" }).text("Seleccionar").appendTo("#cbocategoriaproduc");
+                $.each(data.data, function (index, item) {
+
+                    $("<option>").attr({ "value": item.IdCategoria }).text(item.Descripcion).appendTo("#cbocategoriaproduc");
+                })
+            },
+            error: function (error) {
+                console.log(error)
+            }
+        });
+    jQuery.validator.addMethod("preciodecimal", function (value, element) {
+        return this.optional(element) || /^\d{0,4}(\.\d{0,2})?$/i.test(value);
+    }, "El formato correcto del precio es ##.##");
+
+
+    $("#contenedor").validate({
+        rules: {
+            nombre: {
+                required: true
+            },
+            descripcion: {
+                required: true
+            },
+            precio: {
+                required: true,
+                preciodecimal: true
+            },
+            stock: {
+                required: true,
+                number: true
+            },
+            codigo: {
+                required: true
+            }
+        },
+        messages: {
+            nombre: "- El campo nombre es obligatorio",
+            descripcion: "- El campo descripcion es obligatorio",
+            precio: { required: "- El campo precio es obligario", preciodecimal: "- El formato correcto del precio es ##.##" },
+            stock: { required: "- El campo stock es obligario", preciodecimal: "- Debe ingresar solo numeros en el stock" },
+            codigo: "- El campo codigo es obligatorio"
+        },
+        errorElement: "div",
+        errorLabelContainer: ".alert-danger"
+    })
+        function abrirModal(json) {
+
+            $("#txtid").val(0);
+            $("#txtnombres").val("");
+            $("#txtapellidos").val("");
+            $("#txtcorreo").val("");
+            $("#cboactivo").val(1);
+
+
+            $("#mensajeError").hide();
+
+
+
+            if (json != null) {
+
+
+                $("#txtid").val(json.IdUsuario);
+                $("#txtnombres").val(json.Nombres);
+                $("#txtapellidos").val(json.Apellidos);
+                $("#txtcorreo").val(json.Correo);
+                $("#cboactivo").val(json.Activo == true ? 1 : 0);
+
+            }
+
+            $("#FormModal").modal("show");
+        }
+
+        function abrirModalC(json) {
+
+            $("#txtidc").val(0);
+            $("#txtdescripcionc").val("");
+            $("#cboactivoc").val(1);
+
+            $("#mensajeErrorC").hide();
+
+            if (json != null) {
+
+                $("#txtidc").val(json.IdCategoria);
+                $("#txtdescripcionc").val(json.Descripcion);
+                $("#cboactivoc").val(json.Activo == true ? 1 : 0);
+
+            }
+
+            $("#FormModalC").modal("show");
+        }
+
+        function abrirModalM(json) {
+
+            $("#txtidM").val(0);
+            $("#txtdescripcionM").val("");
+            $("#cboactivoM").val(1);
+
+            $("#mensajeErrorM").hide();
+
+            if (json != null) {
+
+                $("#txtidM").val(json.IdMarca);
+                $("#txtdescripcionM").val(json.Descripcion);
+                $("#cboactivoM").val(json.Activo == true ? 1 : 0);
+
+            }
+
+            $("#FormModalM").modal("show");
+        }
+
+        function abrirModalProduc(json) {
+
+            $("#txtidproduc").val(0);
+            $("#img_producto").removeAttr("src");
+            $("#fileProducto").val("");
+            $("#txtnombreproduc").val("");
+            $("#txtdescripcionproduc").val("");
+            $("#cbomarcaproduc").val($("#cbomarcaproduc option:first").val());
+            $("#cbocategoriaproduc").val($("#cbocategoriaproduc option:first").val());
+            $("#txtprecioproduc").val("");
+            $("#txtstockproduc").val("");
+            $("#cboactivoproduc").val(1);
+            $("#txtcodigo").val("0000000000000");
+
+            $("#mensajeErrorProduc").hide();
+
+            if (json != null) {
+
+                $("#txtidproduc").val(json.IdProducto);
+                $("#txtnombreproduc").val(json.Nombre);
+                $("#txtdescripcionproduc").val(json.Descripcion);
+                $("#cbomarcaproduc").val(json.oMarca.IdMarca);
+                $("#cbocategoriaproduc").val(json.oCategoria.IdCategoria);
+                $("#txtprecioproduc").val(json.Precio);
+                $("#txtstockproduc").val(json.Stock);
+                $("#cboactivoproduc").val(json.Activo == true ? 1 : 0);
+                $("#txtcodigo").val(json.Codigo);
+
+
+
+                 jQuery.ajax({
+                    url: '@Url.Action("ImagenProducto", "Mantenedor")',
+                    type: "POST",
+                     data: JSON.stringify({ id : json.IdProducto}),
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                     success: function (data) {
+
+                         $("#img_producto").LoadingOverlay("hide");
+
+                        if (data.conversion) {
+                            $("#img_producto").attr({ "src": "data:image/" + data.extension + ";base64," + data.textobase64 });
+                        }
+
+                         //$("#img_producto").attr({ "src": data.ruta});
+
+                    },
+                    error: function (error) {
+                        $("#img_producto").LoadingOverlay("hide");
+
+                        $("#mensajeErrorProduc").show();
+                        $("#mensajeErrorProduc").text("Error al mostrar imagen");
+
+                    },
+                    beforeSend: function () {
+                        $("#img_producto").LoadingOverlay("show");
+                    },
+                });
+
+
+
+
+            }
+
+            $("#FormModalProduc").modal("show");
+        }
+
+        $("#tabla tbody").on("click", '.btn-editar', function () {
+
+
+            filaSeleccionada = $(this).closest("tr");
+
+            var data =  tabladata.row(filaSeleccionada).data();
+
+            abrirModal(data)
+
+        })
+
+
+
+        $("#tabla tbody").on("click", '.btn-eliminar', function () {
+
+            var usuarioseleccionado = $(this).closest("tr");
+
+            var data = tabladata.row(usuarioseleccionado).data();
+
+
+            swal({
+                title: "Esta Seguro?",
+                text: "¿Desea eliminar el usuario?",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonClass: "btn-primary",
+                confirmButtonText: "Si",
+                cancelButtonText: "No",
+                closeOnConfirm: true
+            },
+            function () {
+
+                 jQuery.ajax({
+                    url: '@Url.Action("EliminarUsuario", "Home")',
+                    type: "POST",
+                     data: JSON.stringify({ id: data.IdUsuario }),
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+
+                        debugger;
+
+                        if (data.resultado) {
+
+                            tabladata.row(usuarioseleccionado).remove().draw();
+                        } else {
+
+                            swal("No se pudo eliminar", data.mensaje, "error")
+                        }
+                    },
+                    error: function (error) {
+                        console.log(error)
+                    }
+                });
+
+
+
+
+            });
+
+
+            console.log(data);
+
+        })
+
+        function Guardar() {
+
+            var Usuario = {
+
+                IdUsuario: $("#txtid").val(),
+                Activo: $("#cboactivo").val() == 1 ? true: false,
+                Apellidos: $("#txtapellidos").val(),
+                Correo: $("#txtcorreo").val(),
+                Nombres: $("#txtnombres").val()
+            }
+
+
+           jQuery.ajax({
+                url: '@Url.Action("GuardarUsuario", "Home")',
+                type: "POST",
+                data: JSON.stringify({ objeto : Usuario}),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+               success: function (data) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+
+                    //USUARIO NUEVO
+                    if (Usuario.IdUsuario == 0) {
+
+                        if (data.resultado != 0) {
+
+                            Usuario.IdUsuario = data.resultado;
+                            /*tabladata.row.add(Usuario).draw(false);*/
+                            $("#FormModal").modal("hide");
+
+                        } else {
+                            $("#mensajeError").text(data.mensaje);
+                            $("#mensajeError").show();
+                        }
+                    }
+                },
+               error: function (error) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+                   $("#mensajeError").text("Error Ajax");
+                   $("#mensajeError").show();
+                },
+                beforeSend: function () {
+                    $(".modal-body").LoadingOverlay("show", {
+                        imageResizeFactor: 2,
+                        text: "Cargando...",
+                        size: 14
+                    })
+                }
+            });
+        }
+        function GuardarC() {
+
+            var Categoria = {
+                IdCategoria: $("#txtidc").val(),
+                Descripcion: $("#txtdescripcionc").val(),
+                Activo: $("#cboactivoc").val() == 1 ? true : false,
+            }
+
+
+           jQuery.ajax({
+                url: '@Url.Action("GuardarCategoria", "Mantenedor")',
+                type: "POST",
+               data: JSON.stringify({ objeto: Categoria}),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+               success: function (data) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+
+                    //CATEGORIA NUEVO
+                   if (Categoria.IdCategoria == 0) {
+
+                        if (data.resultado != 0) {
+
+                            Categoria.IdCategoria = data.resultado;
+                            /*tabladata.row.add(Categoria).draw(false);*/
+                            $("#FormModalC").modal("hide");
+
+                        } else {
+                            $("#mensajeErrorC").text(data.mensaje);
+                            $("#mensajeErrorC").show();
+                        }
+                    }
+                    //CATEGORIA EDITAR
+                    else {
+
+                        if (data.resultado) {
+
+                            tabladata.row(filaSeleccionada).data(Categoria).draw(false);
+                            filaSeleccionada = null;
+                            $("#FormModalC").modal("hide");
+                        } else {
+                            $("#mensajeErrorC").text(data.mensaje);
+                            $("#mensajeErrorC").show();
+                        }
+                    }
+                },
+               error: function (error) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+                   $("#mensajeErrorC").text("Error Ajax");
+                   $("#mensajeErrorC").show();
+                },
+                beforeSend: function () {
+                    $(".modal-body").LoadingOverlay("show", {
+                        imageResizeFactor: 2,
+                        text: "Cargando...",
+                        size: 14
+                    })
+                }
+            });
+
+
+
+
+        }
+        function GuardarM() {
+
+            var Marca = {
+                IdMarca: $("#txtidM").val(),
+                Descripcion: $("#txtdescripcionM").val(),
+                Activo: $("#cboactivoM").val() == 1 ? true : false,
+            }
+
+
+           jQuery.ajax({
+                url: '@Url.Action("GuardarMarca", "Mantenedor")',
+                type: "POST",
+               data: JSON.stringify({ objeto: Marca}),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+               success: function (data) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+
+                    //MARCA NUEVO
+                   if (Marca.IdMarca == 0) {
+
+                        if (data.resultado != 0) {
+
+                            Marca.IdMarca = data.resultado;
+                            /*tabladata.row.add(Marca).draw(false);*/
+                            $("#FormModalM").modal("hide");
+
+                        } else {
+                            $("#mensajeErrorM").text(data.mensaje);
+                            $("#mensajeErrorM").show();
+                        }
+                    }
+                    //MARCA EDITAR
+                    else {
+
+                        if (data.resultado) {
+
+                            tabladata.row(filaSeleccionada).data(Marca).draw(false);
+                            filaSeleccionada = null;
+                            $("#FormModalM").modal("hide");
+                        } else {
+                            $("#mensajeErrorM").text(data.mensaje);
+                            $("#mensajeErrorM").show();
+                        }
+                    }
+                },
+               error: function (error) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+                   $("#mensajeErrorM").text("Error Ajax");
+                   $("#mensajeErrorM").show();
+                },
+                beforeSend: function () {
+                    $(".modal-body").LoadingOverlay("show", {
+                        imageResizeFactor: 2,
+                        text: "Cargando...",
+                        size: 14
+                    })
+                }
+            });
+
+
+
+
+    }
+    function GuardarProduc() {
+
+            if (!$("#contenedor").valid()) {
+                return;
+            }
+
+
+
+            var ImagenSeleccionada = $("#fileProducto")[0].files[0];
+
+            var Producto = {
+                IdProducto: $("#txtidproduc").val(),
+                Nombre: $("#txtnombreproduc").val(),
+                Descripcion: $("#txtdescripcionproduc").val(),
+                oMarca: {
+                    IdMarca: $("#cbomarcaproduc option:selected").val(),
+                    Descripcion: $("#cbomarcaproduc option:selected").text()
+                },
+                oCategoria: {
+                    IdCategoria: $("#cbocategoriaproduc option:selected").val(),
+                    Descripcion: $("#cbocategoriaproduc option:selected").text()
+                },
+                PrecioTexto: $("#txtprecioproduc").val(),
+                Precio: $("#txtprecioproduc").val(),
+                Stock: $("#txtstockproduc").val(),
+                Activo: $("#cboactivoproduc").val() == 1 ? true : false,
+                Codigo: $("#txtcodigo").val()
+            }
+
+            var request = new FormData();
+            request.append("objeto", JSON.stringify(Producto))
+            request.append("archivoImagen", ImagenSeleccionada)
+
+
+
+           jQuery.ajax({
+                url: '@Url.Action("GuardarProducto", "Mantenedor")',
+                type: "POST",
+               data: request,
+               processData: false,
+               contentType:false,
+               success: function (data) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+
+                    //PRODUCTO NUEVO
+                   if (Producto.IdProducto == 0) {
+
+                       if (data.idGenerado != 0) {
+
+                            Producto.IdProducto = data.idGenerado;
+                            /*tabladata.row.add(Producto).draw(false);*/
+                           $("#FormModalProduc").modal("hide");
+
+                        } else {
+                           $("#mensajeErrorProduc").text(data.mensaje);
+                           $("#mensajeErrorProduc").show();
+                        }
+                    }
+                    //PRODUCTO EDITAR
+                    else {
+
+                       if (data.operacionExitosa) {
+
+                            tabladata.row(filaSeleccionada).data(Producto).draw(false);
+                            filaSeleccionada = null;
+                           $("#FormModalProduc").modal("hide");
+                        } else {
+                           $("#mensajeErrorProduc").text(data.mensaje);
+                           $("#mensajeErrorProduc").show();
+                        }
+                    }
+                },
+               error: function (error) {
+
+                   $(".modal-body").LoadingOverlay("hide");
+                   $("#mensajeErrorProduc").text("Error Ajax");
+                   $("#mensajeErrorProduc").show();
+                },
+                beforeSend: function () {
+                    $(".modal-body").LoadingOverlay("show", {
+                        imageResizeFactor: 2,
+                        text: "Cargando...",
+                        size: 14
+                    })
+                }
+            });
+
+
+
+
+        }
+</script>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/complementos")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

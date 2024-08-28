@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="app.empresa.ferreland.Fragment.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/navigation_config"
+        android:name="app.empresa.ferreland.Fragment.ConfigFragment"
+        android:label="@string/menu_config"
+        tools:layout="@layout/fragment_config" />
+
+    <fragment
+        android:id="@+id/navigation_producto"
+        android:name="app.empresa.ferreland.Fragment.ProductoFragment"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_producto" />
+
+    <fragment
+        android:id="@+id/navigation_venta"
+        android:name="app.empresa.ferreland.Fragment.VentaFragment"
+        android:label="@string/menu_venta"
+        tools:layout="@layout/fragment_ventas" />
+
+    <fragment
+        android:id="@+id/navigation_usuario"
+        android:name="app.empresa.ferreland.Fragment.UsuarioFragment"
+        android:label="@string/menu_usuario"
+        tools:layout="@layout/fragment_usuario" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="app.empresa.ferreland.Fragment.PerfilFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+</navigation>

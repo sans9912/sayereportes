@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/_25sdp"
+    android:paddingRight="@dimen/_25sdp"
+    tools:context=".ui.RegistrarseActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:cardCornerRadius="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_12sdp"
+            android:src="@drawable/logo_ferreland" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/titleOne"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center_horizontal"
+        android:text="@string/title_registrarse"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/titleTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/titleTwo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_below="@+id/titleOne"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center_horizontal"
+        android:text="@string/sub_title_registrarse"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/titleOne"
+        app:layout_constraintStart_toStartOf="@+id/titleOne"
+        app:layout_constraintTop_toBottomOf="@+id/titleOne" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputlNombre"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTwo"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="12dp"
+        android:hint="Nombre"
+        app:endIconMode="clear_text"
+        app:layout_constraintBottom_toTopOf="@+id/textInputlApellido"
+        app:layout_constraintEnd_toEndOf="@+id/titleTwo"
+        app:layout_constraintStart_toStartOf="@+id/titleTwo"
+        app:layout_constraintTop_toBottomOf="@+id/titleTwo"
+        app:startIconDrawable="@drawable/ic_account">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNombreUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputlApellido"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputlNombre"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="13dp"
+        android:hint="Apellidos"
+        app:endIconMode="clear_text"
+        app:layout_constraintBottom_toTopOf="@+id/textInputlCorreo"
+        app:layout_constraintEnd_toEndOf="@+id/textInputlNombre"
+        app:layout_constraintStart_toStartOf="@+id/textInputlNombre"
+        app:layout_constraintTop_toBottomOf="@+id/textInputlNombre"
+        app:startIconDrawable="@drawable/ic_account">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etApellidosUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputlCorreo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputlApellido"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="13dp"
+        android:hint="Correo"
+        app:endIconMode="clear_text"
+        app:layout_constraintBottom_toTopOf="@+id/textInputlPassword"
+        app:layout_constraintEnd_toEndOf="@+id/textInputlApellido"
+        app:layout_constraintStart_toStartOf="@+id/textInputlApellido"
+        app:layout_constraintTop_toBottomOf="@+id/textInputlApellido"
+        app:startIconDrawable="@drawable/ic_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCorreoUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputlPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputlCorreo"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="8dp"
+        android:hint="Contraseña"
+        app:endIconMode="clear_text"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegistrarUsuario"
+        app:layout_constraintEnd_toEndOf="@+id/textInputlCorreo"
+        app:layout_constraintStart_toStartOf="@+id/textInputlCorreo"
+        app:layout_constraintTop_toBottomOf="@+id/textInputlCorreo"
+        app:startIconDrawable="@drawable/ic_lock">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPasswordUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegistrarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:layout_below="@+id/textInputlPassword"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_title_registrar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/textInputlPassword"
+        app:layout_constraintStart_toStartOf="@+id/textInputlPassword"
+        app:layout_constraintTop_toBottomOf="@+id/textInputlPassword" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/indicatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="9sp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorColor="@color/white"
+        app:indicatorSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRegistrarUsuario"
+        app:layout_constraintEnd_toEndOf="@+id/btnRegistrarUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btnRegistrarUsuario"
+        app:layout_constraintTop_toTopOf="@+id/btnRegistrarUsuario" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

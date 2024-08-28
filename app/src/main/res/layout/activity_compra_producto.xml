@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral95"
+    tools:context=".ui.CompraProducto">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:shadowColor="@color/material_dynamic_neutral50"
+        android:shadowRadius="15"
+        android:text="@string/compra_producto"
+        android:textColor="#191919"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/txtCodigoB"
+        android:layout_width="238dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/btnEscanear"
+        app:layout_constraintEnd_toStartOf="@+id/btnEscanear"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnEscanear" />
+
+    <ImageButton
+        android:id="@+id/btnEscanear"
+        android:layout_width="93dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txtCodigoB"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/foto" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EA1E63"
+        android:text="Buscar Producto"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEscanear"
+        app:rippleColor="#AF3F3F" />
+
+    <EditText
+        android:id="@+id/txtNombreP"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Producto"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscar" />
+
+    <EditText
+        android:id="@+id/txtCantidadC"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Cantidad"
+        android:inputType="number"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtNombreP"
+        app:layout_constraintStart_toStartOf="@+id/txtNombreP"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreP" />
+
+    <EditText
+        android:id="@+id/txtPrecioCompra"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Precio Compra"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtCantidadC"
+        app:layout_constraintStart_toStartOf="@+id/txtCantidadC"
+        app:layout_constraintTop_toBottomOf="@+id/txtCantidadC" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="354dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textColorHint="#EA1E63"
+        app:layout_constraintEnd_toEndOf="@+id/txtPrecioCompra"
+        app:layout_constraintStart_toStartOf="@+id/txtPrecioCompra"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecioCompra" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#EA1E63"
+        android:text="Aceptar"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtUsuario"
+        app:layout_constraintStart_toStartOf="@+id/txtUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsuario"
+        app:rippleColor="#AF3F3F" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

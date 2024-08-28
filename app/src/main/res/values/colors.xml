@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#E91E63</color>
+    <color name="primaryLightColor">#F8BBD0</color>
+    <color name="primaryDarkColor">#C2185B</color>
+    <color name="secondaryColor">#757575</color>
+    <color name="secondaryLightColor">#FF4081</color>
+    <color name="secondaryDarkColor">#008fcc</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="dark">#000000</color>
+    <color name="green">#34c38f</color>
+    <color name="yellow">#f1b44c</color>
+    <color name="blue">#556ee6</color>
+    <color name="red">#e83e8c</color>
+    <color name="indigo">#564ab1</color>
+    <color name="purple">#6f42c1</color>
+    <color name="orange">#f1734f</color>
+    <color name="teal">#050505</color>
+    <color name="cyan">#50a5f1</color>
+
+    <color name="gray100">#f8f9fa</color>
+    <color name="gray200">#eff2f7</color>
+    <color name="gray300">#f6f6f6</color>
+    <color name="gray400">#ced4da</color>
+    <color name="gray500">#adb5bd</color>
+    <color name="gray600">#74788d</color>
+    <color name="gray700">#495057</color>
+    <color name="gray800">#343a40</color>
+    <color name="gray900">#212529</color>
+
+    <color name="red_secundary">#B71C1C</color>
+    <color name="neutral">#F6F6F6</color>
+    <color name="dark_secundary">#9098B1</color>
+
+    <color name="activeLink">#795CB2</color>
+
+
+
+</resources>

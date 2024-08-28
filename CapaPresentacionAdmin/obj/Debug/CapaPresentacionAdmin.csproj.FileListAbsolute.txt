@@ -1,0 +1,1265 @@
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.exe
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.exe
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\WebGrease.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.pdb
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+C:\ProgramasVisual\Curso de Sistema Web Carrito\CursoMVC\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.exe
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.exe
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\WebGrease.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.pdb
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+E:\WorkSpaceAD\YOUTUBE\041_CURSO CARRITO COMPRAS MVC\SUBIR MEDIAFIRE\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer año\6to semestre\Proyecto de Sistemas I\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\3A\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\ProyectodeSistemasI\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\IngenieriaDeSistemasInfo\Tercer Año\6tosemestre\SWWorkDuck\SWWorkDuck1\SWWorkDuck\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\ProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\ProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\ProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\ProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\WorkduckReports\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\WorkduckReports\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\WorkduckReports\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\WorkduckReports\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\WorkduckReports\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\WorkduckReports\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\WorkduckReports\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\WorkduckReports\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\WorkduckReports\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\WorkduckReports\CapaPresentacionAdmin\bin\EPPlus.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\EPPlus.Interfaces.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\EPPlus.System.Drawing.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Microsoft.IO.RecyclableMemoryStream.dll
+D:\WorkduckReports\CapaPresentacionAdmin\bin\EPPlus.xml
+D:\WorkduckReports\CapaPresentacionAdmin\bin\Microsoft.IO.RecyclableMemoryStream.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.Interfaces.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.System.Drawing.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.IO.RecyclableMemoryStream.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.IO.RecyclableMemoryStream.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\NUnit3.TestAdapter.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.api.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.engine.core.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\testcentric.engine.metadata.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\linux\selenium-manager
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\macos\selenium-manager
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\selenium-manager\windows\selenium-manager.exe
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll.config
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaPresentacionAdmin.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.exe
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.exe.config
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csc.rsp
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.exe
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.exe.config
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\csi.rsp
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.AppContext.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Console.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Net.Http.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.ValueTuple.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.exe
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.exe.config
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\vbc.rsp
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaEntidad.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.Interfaces.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.System.Drawing.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ExcelNumberFormat.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.IO.RecyclableMemoryStream.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.framework.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.IO.Packaging.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Helpers.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Mvc.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Optimization.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Razor.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\WebDriver.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\WebDriver.Support.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\WebGrease.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaDatos.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Firebase.Auth.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Firebase.Storage.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ClosedXML.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\DocumentFormat.OpenXml.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\EPPlus.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\ExcelNumberFormat.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.IO.RecyclableMemoryStream.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\nunit.framework.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.Razor.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\CapaDatos.pdb
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Helpers.resources.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Mvc.resources.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Optimization.resources.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.Razor.resources.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.resources.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
+D:\DescargasEdge\NuevoProyectoFerreland\NuevoProyectoFerreland\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb

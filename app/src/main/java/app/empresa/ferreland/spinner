@@ -1,0 +1,18 @@
+ ArrayList<Building> buildingList = new ArrayList<>();
+                    for (ResponseCategory responseCategory : response.body()) {
+                        buildingList.add(new Building(responseCategory.getId(), responseCategory.getTipo().toLowerCase()));
+                    }
+                    ArrayAdapter<Building> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_dropdown_item_1line, buildingList);
+                    spinner_categories.setAdapter(arrayAdapter);
+                    spinner_categories.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                        @Override
+                        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                            String tipo = parent.getItemAtPosition(position).toString();
+                            String uid = buildingList.get(position).getId();
+                        }
+
+                        @Override
+                        public void onNothingSelected(AdapterView<?> parent) {
+
+                        }
+                    });

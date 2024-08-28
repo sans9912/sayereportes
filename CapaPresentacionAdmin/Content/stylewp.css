@@ -1,0 +1,104 @@
+/* ==== "Inter" FONT-FAMILY FROM FONTS.GOOGLE.COM  ==== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+/* ==== ROOT RESET ==== */
+:root {
+    --primary-color: #ff0000;
+    --link-color: #506690;
+    --btn-hover-color: #2b50c7;
+    --lg-heading: #161c2d;
+    --text-content: #869ab8;
+    --fixed-header-height: 4.5rem;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #fafbfb;
+}
+
+/* ==== CONTAINER ==== */
+.container {
+    width: 100%;
+}
+/* ==== HEADER ==== */
+.header {
+    height: var(--fixed-header-height);
+    padding: 0 1.7rem;
+}
+
+/* ==== NAV ==== */
+
+}
+
+.toggle_btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--lg-heading);
+    z-index: 4;
+}
+
+.nav_menu,
+.close_btn {
+    display: none;
+}
+
+.show {
+    right: 3% !important;
+}
+/* ====  WRAPPER ==== */
+.wrapper {
+    width: 100%;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.grid-cols-2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.grid-item-1 {
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+}
+
+.team_img_wrapper {
+    width: 500px;
+    max-width: 100%;
+    height: 440px;
+}
+
+.main-heading {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+    .main-heading span {
+        color: var(--primary-color);
+    }
+
+.grid-item-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-cols-3 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    row-gap: 2rem;
+    padding: 1rem;
+}
+
+.grid-col-item {
+    height: 100%;
+}

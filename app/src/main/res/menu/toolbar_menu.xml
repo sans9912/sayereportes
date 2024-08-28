@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/nav_config"-->
+<!--        android:icon="@drawable/ic_settings"-->
+<!--        android:iconTint="@color/white"-->
+<!--        android:title="Configuracion"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/nav_power"
+        android:icon="@drawable/cerrars"
+        android:iconTint="@color/white"
+        android:title="Salir"
+        app:showAsAction="ifRoom" />
+
+</menu>
