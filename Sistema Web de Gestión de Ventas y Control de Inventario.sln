@@ -5,8 +5,6 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacionAdmin", "CapaPresentacionAdmin\CapaPresentacionAdmin.csproj", "{50E3EBDD-FF1E-492D-A463-53B0F1934571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacionTienda", "CapaPresentacionTienda\CapaPresentacionTienda.csproj", "{DD0CB3D4-AA48-4DA7-8A93-4CB336499CDE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{BA9FA596-E239-4AD1-A4DD-0FBE987BEFA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidad", "CapaEntidad\CapaEntidad.csproj", "{964C8A1E-2E51-4CAC-B2C9-9BFFFA0150E4}"
@@ -23,10 +21,6 @@ Global
 		{50E3EBDD-FF1E-492D-A463-53B0F1934571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E3EBDD-FF1E-492D-A463-53B0F1934571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E3EBDD-FF1E-492D-A463-53B0F1934571}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD0CB3D4-AA48-4DA7-8A93-4CB336499CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD0CB3D4-AA48-4DA7-8A93-4CB336499CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD0CB3D4-AA48-4DA7-8A93-4CB336499CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD0CB3D4-AA48-4DA7-8A93-4CB336499CDE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA9FA596-E239-4AD1-A4DD-0FBE987BEFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA9FA596-E239-4AD1-A4DD-0FBE987BEFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA9FA596-E239-4AD1-A4DD-0FBE987BEFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU

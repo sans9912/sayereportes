@@ -20,7 +20,7 @@ namespace CapaDatos
                 using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
                 {
 
-                    string query = "select IdUsuario,Nombres,Apellidos,Correo,Clave,Reestablecer,Activo,idRol from USUARIO";
+                    string query = "select IdUsuario,Nombres,Apellidos,Correo,Clave,Restablecer,Activo,idRol from USUARIO";
                     SqlCommand cmd = new SqlCommand(query, oconexion);
                     cmd.CommandType = CommandType.Text;
                     oconexion.Open();
@@ -38,7 +38,7 @@ namespace CapaDatos
                                     Apellidos = dr["Apellidos"].ToString(),
                                     Correo = dr["Correo"].ToString(),
                                     Clave = dr["Clave"].ToString(),
-                                    Reestablecer = Convert.ToBoolean(dr["Reestablecer"]),
+                                    Reestablecer = Convert.ToBoolean(dr["Restablecer"]),
                                     Activo = Convert.ToBoolean(dr["Activo"]),
                                     idRol = (Rol)(dr["idRol"])
                                 }
@@ -66,7 +66,7 @@ namespace CapaDatos
                 using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
                 {
 
-                    string query = "select IdUsuario,Nombres,Apellidos,Correo,Clave,Reestablecer,Activo,idRol from USUARIO where idRol=2";
+                    string query = "select IdUsuario,Nombres,Apellidos,Correo,Clave,Restablecer,Activo,idRol from USUARIO where idRol=2";
 
                     SqlCommand cmd = new SqlCommand(query, oconexion);
                     cmd.CommandType = CommandType.Text;
@@ -86,7 +86,7 @@ namespace CapaDatos
                                     Apellidos = dr["Apellidos"].ToString(),
                                     Correo = dr["Correo"].ToString(),
                                     Clave = dr["Clave"].ToString(),
-                                    Reestablecer = Convert.ToBoolean(dr["Reestablecer"]),
+                                    Reestablecer = Convert.ToBoolean(dr["Restablecer"]),
                                     Activo = Convert.ToBoolean(dr["Activo"]),
                                     idRol = (Rol)(dr["idRol"])
                                 }
@@ -215,7 +215,7 @@ namespace CapaDatos
             {
                 using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
                 {
-                    SqlCommand cmd = new SqlCommand("update usuario set clave = @nuevaclave , reestablecer = 0 where idusuario = @id", oconexion);
+                    SqlCommand cmd = new SqlCommand("update usuario set clave = @nuevaclave , restablecer = 0 where idusuario = @id", oconexion);
                     cmd.Parameters.AddWithValue("@id", idusuario);
                     cmd.Parameters.AddWithValue("@nuevaclave", nuevaclave);
                     cmd.CommandType = CommandType.Text;
@@ -240,7 +240,7 @@ namespace CapaDatos
             {
                 using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
                 {
-                    SqlCommand cmd = new SqlCommand("update usuario set clave = @clave , reestablecer = 1 where idusuario = @id", oconexion);
+                    SqlCommand cmd = new SqlCommand("update usuario set clave = @clave , restablecer = 1 where idusuario = @id", oconexion);
                     cmd.Parameters.AddWithValue("@id", idusuario);
                     cmd.Parameters.AddWithValue("@clave", clave);
                     cmd.CommandType = CommandType.Text;

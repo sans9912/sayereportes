@@ -46,14 +46,14 @@ namespace CapaNegocio
 
                 MailMessage mail = new MailMessage();
                 mail.To.Add(correo);
-                mail.From = new MailAddress("ferrelandbolivia@gmail.com");
+                mail.From = new MailAddress("sayerdistribuidora@gmail.com");
                 mail.Subject = asunto;
                 mail.Body = mensaje;
                 mail.IsBodyHtml = true;
 
                 var smtp = new SmtpClient()
                 {
-                    Credentials = new NetworkCredential("ferrelandbolivia@gmail.com", "fcymopfbwsdwvksb"),
+                    Credentials = new NetworkCredential("sayerdistribuidora@gmail.com", "uqss sthn cvrk vwhx"),
                     Host = "smtp.gmail.com",
                     Port = 587,
                     EnableSsl = true

@@ -90,6 +90,42 @@ namespace CapaPresentacionAdmin.Controllers
                 ViewBag.Error = "Las contraseñas no coinciden";
                 return View();
             }
+            
+            else if (nuevaclave.Length < 8)
+            {
+                TempData["IdUsuario"] = idusuario;
+                ViewData["vclave"] = claveactual;
+                ViewBag.Error = "La contraseña debe tener al menos 8 caracteres";
+                return View();
+            }
+            else if (!nuevaclave.Any(char.IsUpper))
+            {
+                TempData["IdUsuario"] = idusuario;
+                ViewData["vclave"] = claveactual;
+                ViewBag.Error = "La contraseña debe tener al menos una mayúscula";
+                return View();
+            }
+            else if (!nuevaclave.Any(char.IsLower))
+            {
+                TempData["IdUsuario"] = idusuario;
+                ViewData["vclave"] = claveactual;
+                ViewBag.Error = "La contraseña debe tener al menos una minúscula";
+                return View();
+            }
+            else if (!nuevaclave.Any(char.IsDigit))
+            {
+                TempData["IdUsuario"] = idusuario;
+                ViewData["vclave"] = claveactual;
+                ViewBag.Error = "La contraseña debe tener al menos un número";
+                return View();
+            }
+            else if (nuevaclave == claveactual)
+            {
+                TempData["IdUsuario"] = idusuario;
+                ViewData["vclave"] = claveactual;
+                ViewBag.Error = "La nueva contraseña no puede ser igual a la actual";
+                return View();
+            }
             ViewData["vclave"] = "";
 
 
