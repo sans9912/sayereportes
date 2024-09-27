@@ -84,18 +84,7 @@ namespace CapaPresentacionAdmin.Controllers
 
         }
 
-        public JsonResult ListarCompras()
-        {
-
-            List<Compra> oLista = new List<Compra>();
-
-            oLista = new CN_Compra().Listar();
-
-
-            //return Json(new { data = oLista }, JsonRequestBehavior.AllowGet);
-            return Json(oLista, JsonRequestBehavior.AllowGet);
-
-        }
+       
 
         [HttpPost]
         public JsonResult GuardarUsuario(Usuario objeto)

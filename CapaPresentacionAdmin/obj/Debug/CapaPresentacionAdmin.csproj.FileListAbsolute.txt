@@ -1385,3 +1385,12 @@ D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\obj\Debug\CapaPres
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Buffers.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.ComponentModel.Annotations.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Memory.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Numerics.Vectors.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Buffers.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Memory.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Numerics.Vectors.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml

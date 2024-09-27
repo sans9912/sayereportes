@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
-    <link rel="icon" type="image/png" sizes="500x500" href="~/Content/images/FerrelandLogoSFondo.png" />
+    <link rel="icon" type="image/png" sizes="500x500" href="~/Content/images/SayerLogo.png" />
     @Styles.Render("~/Content/css")
     @*@RenderSection("Styles", required: false)*@
     @*@Scripts.Render("~/bundles/modernizr")*@
@@ -119,7 +119,7 @@
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
         <a class="navbar-brand ps-3 my-5" href="@Url.Action("Index","Home")">
-            <img src="~/Content/images/FerrelandLogoSFondo.png" width="150" height="150" />
+            <img src="~/Content/images/SayerLogo.png" width="150" height="150" />
         </a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
@@ -198,102 +198,28 @@
                                         </a>
                                     </nav>
                                 </div>
-                               
-                               
-                               
                                 <div class="sb-sidenav-menu-heading">Funciones de Mantenimiento</div>
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsCa" aria-expanded="false" aria-controls="collapseLayoutsCa">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                    Categorias
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                </a>
-                                <div class="collapse" id="collapseLayoutsCa" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="@Url.Action("Categoria","Mantenedor")">Editar Categorias</a>
-                                        <a class="nav-link" href="#" onclick="abrirModalC(null)">Registrar Categoria</a>
-                                    </nav>
-                                </div>
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsM" aria-expanded="false" aria-controls="collapseLayouts">
+                                <a class="nav-link" href="@Url.Action("Subida","Mantenedor")">
                                     <div class="sb-nav-link-icon"><i class="fas fa-bookmark"></i></div>
-                                    Marcas
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    Subir reporte de ventas
                                 </a>
-                                <div class="collapse" id="collapseLayoutsM" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="@Url.Action("Marca","Mantenedor")">Editar Marcas</a>
-                                        <a class="nav-link" href="#" onclick="abrirModalM(null)">Registrar Marca</a>
-                                    </nav>
-                                </div>
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsP" aria-expanded="false" aria-controls="collapseLayouts">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
-                                    Productos
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                <a class="nav-link" href="@Url.Action("Subida","Mantenedor")">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-bookmark"></i></div>
+                                    Resultados anteriores
                                 </a>
-                                <div class="collapse" id="collapseLayoutsP" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="@Url.Action("Producto","Mantenedor")">Editar Productos</a>
-                                        <a class="nav-link" href="#" onclick="abrirModalProduc(null)">Registrar Producto</a>
-                                    </nav>
-                                </div>
 
-
-                                @*<a class="nav-link" href="@Url.Action("Producto","Mantenedor")">
-                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
-                    Productos
-                </a>*@
-                                <a class="nav-link" href="@Url.Action("Compra","Mantenedor")">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-shopping-bag"></i></div>
-                                    Compras
-                                </a>
                             }
                             else if (CapaPresentacionAdmin.Permisos.PermisosRolAttribute.ObtenerIdRol() == 2)
                             {
                                 <div class="sb-sidenav-menu-heading">Funciones Mantenimiento</div>
-                                <a class="nav-link" href="@Url.Action("Dashboard","Home")">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                    Dashboard
-                                </a>
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                    Categorias
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                </a>
-                                <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="@Url.Action("Categoria","Mantenedor")">Editar Categorias</a>
-                                        <a class="nav-link" href="#" onclick="abrirModalC(null)">Registrar Categoria</a>
-                                    </nav>
-                                </div>
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsM" aria-expanded="false" aria-controls="collapseLayouts">
+                               
+                                <a class="nav-link" href="@Url.Action("Subida","Mantenedor")">
                                     <div class="sb-nav-link-icon"><i class="fas fa-bookmark"></i></div>
-                                    Marcas
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    Subir reporte de ventas
                                 </a>
-                                <div class="collapse" id="collapseLayoutsM" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="@Url.Action("Marca","Mantenedor")">Editar Marcas</a>
-                                        <a class="nav-link" href="#" onclick="abrirModalM(null)">Registrar Marca</a>
-                                    </nav>
-                                </div>
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsP" aria-expanded="false" aria-controls="collapseLayouts">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
-                                    Productos
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                </a>
-                                <div class="collapse" id="collapseLayoutsP" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="@Url.Action("Producto","Mantenedor")">Editar Productos</a>
-                                        <a class="nav-link" href="#" onclick="abrirModalProduc(null)">Registrar Producto</a>
-                                    </nav>
-                                </div>
-
-                                @*<a class="nav-link" href="@Url.Action("Producto","Mantenedor")">
-                    <div class="sb-nav-link-icon"><i class="fas fa-boxes"></i></div>
-                    Productos
-                </a>*@
-                                <a class="nav-link" href="@Url.Action("Compra","Mantenedor")">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-shopping-bag"></i></div>
-                                    Compras
+                                <a class="nav-link" href="@Url.Action("Subida","Mantenedor")">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-bookmark"></i></div>
+                                    Resultados anteriores
                                 </a>
                             }
 
