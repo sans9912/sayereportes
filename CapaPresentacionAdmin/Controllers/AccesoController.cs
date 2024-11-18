@@ -1,6 +1,8 @@
 ﻿using CapaEntidad;
 using CapaNegocio;
+using System;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 using System.Web.Security;
 
@@ -8,7 +10,10 @@ namespace CapaPresentacionAdmin.Controllers
 {
     public class AccesoController : Controller
     {
+
         // GET: Acceso
+        
+
         public ActionResult Index()
         {
             return View();
@@ -26,23 +31,32 @@ namespace CapaPresentacionAdmin.Controllers
         {
             return View();
         }
-        int cont = 0;
+    
         [HttpPost]
-        public ActionResult Index(string correo, string clave)
+        public async Task<ActionResult> Index(string correo, string clave)
         {
             Usuario oUsuario = new Usuario();
             Usuario oUsuario1 = new Usuario();
+
             oUsuario = new CN_Usuarios().Listar().Where(u => u.Correo == correo && u.Clave == CN_Recursos.ConvertirSha256(clave)).FirstOrDefault();
             oUsuario1 = new CN_Usuarios().Listar().Where(us => us.Correo == correo).FirstOrDefault();
 
+            FechaController fechaController = new FechaController();
+
             if (oUsuario1 != null && oUsuario1.Clave != CN_Recursos.ConvertirSha256(clave))
             {
-                cont++;
-                if (cont == 3)
+               
+                DateTime horaLocal = await fechaController.ObtenerFechaHoraAsync();
+                string mensajeEvento = string.Empty;
+                Eventos oEventoIncorrecto = new Eventos
                 {
-                    ViewBag.Error = "Usuario bloqueado.";
-                    return View("Bloqueado");
-                }
+                    descripcion = "Contraseña incorrecta",
+                    idUsuario = oUsuario1.IdUsuario,
+                    fechaRegistro = horaLocal
+                };
+                new CN_Eventos().Registrar(oEventoIncorrecto, out mensajeEvento);
+
+                
             }
 
             if (oUsuario == null)
@@ -58,9 +72,25 @@ namespace CapaPresentacionAdmin.Controllers
                     return RedirectToAction("CambiarClave");
                 }
 
+                if (oUsuario.Activo == false)
+                {
+                    ViewBag.Error = "Usuario inactivo";
+                    return View();
+                }
+
+                DateTime horaLocal = await fechaController.ObtenerFechaHoraAsync();
+                string mensajeEvento = string.Empty;
+                Eventos oEventoInicioSesion = new Eventos
+                {
+                    descripcion = "Inicio de sesión",
+                    idUsuario = oUsuario.IdUsuario,
+                    fechaRegistro = horaLocal
+                };
+                new CN_Eventos().Registrar(oEventoInicioSesion, out mensajeEvento);
+
                 FormsAuthentication.SetAuthCookie(oUsuario.Correo, false);
                 Session["Usuario"] = oUsuario;
-
+                Session["UsuarioId"] = oUsuario.IdUsuario;
                 ViewBag.Error = null;
                 return RedirectToAction("Index", "Home");
             }
@@ -68,7 +98,7 @@ namespace CapaPresentacionAdmin.Controllers
 
 
         [HttpPost]
-        public ActionResult CambiarClave(string idusuario, string claveactual, string nuevaclave, string confirmarclave)
+        public async Task<ActionResult> CambiarClave(string idusuario, string claveactual, string nuevaclave, string confirmarclave)
         {
 
             Usuario oUsuario = new Usuario();
@@ -138,7 +168,13 @@ namespace CapaPresentacionAdmin.Controllers
 
             if (respuesta)
             {
-
+                FechaController fechaController = new FechaController();
+                DateTime horaLocal = await fechaController.ObtenerFechaHoraAsync();
+                Eventos oEvento = new Eventos();
+                oEvento.descripcion = "Cambio de contraseña";
+                oEvento.idUsuario = int.Parse(idusuario);
+                oEvento.fechaRegistro = horaLocal;
+                new CN_Eventos().Registrar(oEvento, out mensaje);
                 return RedirectToAction("Index");
             }
             else
@@ -196,6 +232,7 @@ namespace CapaPresentacionAdmin.Controllers
 
             FormsAuthentication.SignOut();
             Session["Usuario"] = null;
+            Session["UsuarioId"] = null;
             return RedirectToAction("Index", "Acceso");
 
         }

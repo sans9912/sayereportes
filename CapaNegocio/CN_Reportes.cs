@@ -12,7 +12,11 @@ namespace CapaNegocio
     {
         private CD_Reportes objCapaDato = new CD_Reportes();
 
-        // Acepta una lista de reportes
+        public bool ExisteReporteParaMes(string mes, out string mensaje)
+        {
+            return objCapaDato.ValidarMesReporte(mes, out mensaje);
+        }
+
         public int Registrar(List<Reportes> lista, out string Mensaje)
         {
             Mensaje = string.Empty;

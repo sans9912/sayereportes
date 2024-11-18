@@ -107,92 +107,14 @@
     <!-- ==== SCRIPT.JS ==== -->
     <!-- <script src="./script.js" defer></script> -->
 </body>
-@*<ol class="breadcrumb mb-4 mt-4">
-    <li class="breadcrumb-item"><a href="index.html">Resumen</a></li>
-    <li class="breadcrumb-item active">Usuarios</li>
-</ol>*@
-
-@*<div class="card">
-    <div class="card-header">
-
-        <i class="fas fa-users me-1"></i> Lista de Usuarios
-    </div>
-
-    <div class="card-body">
-        <div class="row">
-            <div class="col-12">
-                <button type="button" class="btn btn-success" onclick="abrirModal(null)">Crear Nuevo</button>
-            </div>
-        </div>
-
-        <hr />
-
-        <table id="tabla" class="display cell-border" style="width: 100%">
-            <thead>
-                <tr>
-                    <th>Nombres</th>
-                    <th>Apellidos</th>
-                    <th>Correo</th>
-                    <th>Activo</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
-</div>*@
-
-
 
 <!-- Modal -->
-
 
 
 @section scripts{
     <script>
 
-        //var tabladata;
-        //var filaSeleccionada;
-
-
-
-        @*tabladata = $("#tabla").DataTable({
-            responsive: true,
-            ordering: false,
-            "ajax": {
-                url: '@Url.Action("ListarUsuarios", "Home")',
-                type: "GET",
-                dataType: "json"
-            },
-            "columns": [
-                {"data":"Nombres"},
-                {"data":"Apellidos"},
-                {"data":"Correo"},
-                {
-                    "data": "Activo", "render": function (valor) {
-                        if (valor) {
-                            return '<span class="badge bg-success">Si</span>'
-                        } else {
-                            return '<span class="badge bg-danger">No</span>'
-                        }
-                    }
-
-                },
-                {
-                    "defaultContent": '<button type="button" class="btn btn-primary btn-sm btn-editar"><i class="fas fa-pen"></i></button>',
-                        /*'<button type="button" class="btn btn-danger btn-sm ms-2 btn-eliminar"><i class="fas fa-trash"></i></button>'*/
-                    "orderable": false,
-                    "searchable": false,
-                    "width": "90px"
-                }
-
-            ],
-            "language": {
-                "url": "https://cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
-            }
-
-        });*@
+      
 
         function abrirModal(json) {
 
@@ -343,10 +265,7 @@
 
 
         }
-        //document.addEventListener("DOMContentLoaded", function () {
-        //    // Llama a la función abrirModal con el argumento null
-        //    abrirModal(null);
-        //});
+     
 
 
 

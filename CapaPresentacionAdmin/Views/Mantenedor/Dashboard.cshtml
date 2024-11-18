@@ -1,0 +1,132 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+<h1 class="mt-4">Dashboard principal</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Visualización de resultados de proyecciones</li>
+</ol>
+
+<div class="card mb-4 bg-info bg-opacity-10">
+    <div class="card-header">
+        <i class="fas fa-file-alt me-1"></i>
+        Eventos Recientes
+    </div>
+    <div class="card-body">
+        <form action="@Url.Action("ExportarReporte", "Home")" method="post">
+            <div class="row align-items-end">
+                <div class="col-sm-2">
+                    <div class="mb-2">
+                        <label class="form-label">Fecha de Inicio:</label>
+                        <input class="form-control" type="text" id="txtfechainicioReporte" name="fechainicioReporte" />
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="mb-2">
+                        <label class="form-label">Fecha Fin:</label>
+                        <input class="form-control" type="text" id="txtfechafinReporte" name="fechafinReporte" />
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="d-grid mb-2">
+                        <button class="btn btn-primary" id="btnBuscarReporte" type="button">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="d-grid mb-2">
+                        <button class="btn btn-success" type="submit">
+                            <i class="fas fa-file-excel"></i> Exportar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="tablaReportesAnteriores" class="display cell-border" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Fecha Reporte</th>
+                            <th>Usuario</th>
+                            <th>Rol</th>
+                            <th>Descripción</th>
+                            <th>Hora</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        var tablaReportesAnteriores;
+
+        $(document).ready(function () {
+            var fechaInicio = new Date();
+            fechaInicio.setDate(fechaInicio.getDate() - 7); 
+            var fechafinal = new Date();
+            fechafinal.setDate(fechafinal.getDate() +1); 
+            $("#txtfechainicioReporte").datepicker({ dateFormat: 'dd/mm/yy' }).datepicker('setDate', fechaInicio);
+            $("#txtfechafinReporte").datepicker({ dateFormat: 'dd/mm/yy' }).datepicker('setDate', fechafinal);
+
+            var urlReportesAnteriores = obtenerUrlReportes();
+
+            tablaReportesAnteriores = $("#tablaReportesAnteriores").DataTable({
+                responsive: true,
+                ordering: true,
+                order: [[0, 'desc'], [4, 'desc']], 
+                ajax: {
+                    url: urlReportesAnteriores,
+                    type: "GET",
+                    dataType: "json"
+                },
+                columns: [
+                    {
+                        data: "FechaRegistro",
+                        render: function (data) {
+                            if (data) {
+                                var timestamp = data.match(/\/Date\((\d+)\)\//);
+                                if (timestamp) {
+                                    var date = new Date(parseInt(timestamp[1], 10));
+                                    return date.toLocaleDateString(); 
+                                }
+                            }
+                            return 'Fecha no válida';
+                        }
+                    },
+                    { data: "CorreoUsuario" },
+                    { data: "NombreRol" },
+                    { data: "Descripcion" },
+                    {
+                        data: "Hora",
+                        render: function(data) {
+                            return data; 
+                        }
+                    }
+                ],
+                language: {
+                    url: "https://cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
+                }
+            });
+
+            $("#btnBuscarReporte").on("click", function () {
+                var nuevaUrlReportes = obtenerUrlReportes();
+                tablaReportesAnteriores.ajax.url(nuevaUrlReportes).load();
+            });
+        });
+
+        function obtenerUrlReportes() {
+            return '@Url.Action("ListarEventos", "Home")' +
+                "?fechainicio=" + $("#txtfechainicioReporte").val() +
+                "&fechafin=" + $("#txtfechafinReporte").val();
+        }
+    </script>
+}

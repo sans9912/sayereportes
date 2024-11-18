@@ -498,3 +498,12 @@ D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\obj\Debug\CapaNegocio.csproj
 D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\obj\Debug\CapaNegocio.dll
 D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Memory.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Numerics.Vectors.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Buffers.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\CapaDatos.dll.config
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Memory.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Numerics.Vectors.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaNegocio\bin\Debug\System.Buffers.xml

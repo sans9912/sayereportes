@@ -194,7 +194,7 @@
             var data =  tabladata.row(filaSeleccionada).data();
 
             abrirModal(data)
-           
+
         })
 
 
@@ -261,63 +261,57 @@
                 Correo: $("#txtcorreo").val(),
                 Nombres: $("#txtnombres").val()
             }
+            jQuery.ajax({
+    url: '@Url.Action("GuardarUsuario", "Home")',
+    type: "POST",
+    data: JSON.stringify({ objeto: Usuario }),
+    dataType: "json",
+    contentType: "application/json; charset=utf-8",
+    success: function (data) {
+        $(".modal-body").LoadingOverlay("hide");
+
+        if (Usuario.IdUsuario == 0) {
+            if (data.resultado != 0) {
+                Usuario.IdUsuario = data.resultado;
+                tabladata.row.add(Usuario).draw(false);
+                $("#FormModal").modal("hide");
+            } else {
+                $("#mensajeError").text(data.mensaje);
+                $("#mensajeError").show();
+            }
+        } else {
+            if (data.resultado) {
+                tabladata.row(filaSeleccionada).data(Usuario).draw(false);
+                filaSeleccionada = null;
+                $("#FormModal").modal("hide");
+            } else {
+                $("#mensajeError").text(data.mensaje);
+                $("#mensajeError").show();
+            }
+        }
+    },
+    error: function (jqXHR, textStatus, errorThrown) {
+        $(".modal-body").LoadingOverlay("hide");
+    
+        $("#mensajeError").text("Error AJAX: " + textStatus + " - " + errorThrown);
+        $("#mensajeError").show();
+        console.error("Error AJAX:", textStatus, errorThrown);
+        console.error("Response Text:", jqXHR.responseText); 
+    },
+    beforeSend: function () {
+        $(".modal-body").LoadingOverlay("show", {
+            imageResizeFactor: 2,
+            text: "Cargando...",
+            size: 14
+        });
+    }
+});
 
 
-           jQuery.ajax({
-                url: '@Url.Action("GuardarUsuario", "Home")',
-                type: "POST",
-                data: JSON.stringify({ objeto : Usuario}),
-                dataType: "json",
-                contentType: "application/json; charset=utf-8",
-               success: function (data) {
-
-                   $(".modal-body").LoadingOverlay("hide");
-
-                    //USUARIO NUEVO
-                    if (Usuario.IdUsuario == 0) {
-
-                        if (data.resultado != 0) {
-
-                            Usuario.IdUsuario = data.resultado;
-                            tabladata.row.add(Usuario).draw(false);
-                            $("#FormModal").modal("hide");
-
-                        } else {
-                            $("#mensajeError").text(data.mensaje);
-                            $("#mensajeError").show();
-                        }
-                    }
-                    //USUARIO EDITAR
-                    else {
-
-                        if (data.resultado) {
-                            
-                            tabladata.row(filaSeleccionada).data(Usuario).draw(false);
-                            filaSeleccionada = null;
-                            $("#FormModal").modal("hide");
-                        } else {
-                            $("#mensajeError").text(data.mensaje);
-                            $("#mensajeError").show();
-                        }
-                    }
-                },
-               error: function (error) {
-
-                   $(".modal-body").LoadingOverlay("hide");
-                   $("#mensajeError").text("Error Ajax");
-                   $("#mensajeError").show();
-                },
-                beforeSend: function () {
-                    $(".modal-body").LoadingOverlay("show", {
-                        imageResizeFactor: 2,
-                        text: "Cargando...",
-                        size: 14
-                    })
-                }
-            });
 
 
-         
+
+
 
         }
 

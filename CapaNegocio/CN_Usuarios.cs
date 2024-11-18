@@ -42,8 +42,8 @@ namespace CapaNegocio
 
                 string clave = CN_Recursos.GenerarClave();
 
-                string asunto = "Creacion de Cuenta";
-                string mensaje_correo = "<h3>Su cuenta fue creada correctamente</h3></br><p>Su contraseña para acceder es: !clave!</p>";
+                string asunto = "Codigo de acceso - Proyecciones Sayer";
+                string mensaje_correo = "<h3>Reestablecimiento de contraseña</h3></br><p>Su código para acceder es: !clave!</p>";
                 mensaje_correo = mensaje_correo.Replace("!clave!", clave);
 
 

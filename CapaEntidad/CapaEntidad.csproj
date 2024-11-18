@@ -55,13 +55,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="DashBoard.cs" />
+    <Compile Include="Eventos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reporte.cs" />
     <Compile Include="Reportes.cs" />
     <Compile Include="Rol.cs" />
-    <Compile Include="Top5Productos.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>

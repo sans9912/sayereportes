@@ -1350,8 +1350,6 @@ D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\WebDriver.dll
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\WebDriver.Support.dll
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\WebGrease.dll
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\CapaDatos.dll
-D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\Firebase.Auth.dll
-D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\Firebase.Storage.dll
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\CapaEntidad.pdb
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\CapaNegocio.pdb
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\CapaNegocio.dll.config
@@ -1394,3 +1392,16 @@ D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Buffers
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Memory.xml
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Numerics.Vectors.xml
 D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Formats.Asn1.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Text.Encodings.Web.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Text.Json.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Threading.Tasks.Extensions.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.ValueTuple.dll
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Formats.Asn1.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Text.Encodings.Web.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Text.Json.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.Threading.Tasks.Extensions.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\System.ValueTuple.xml
+D:\tallerdesistemas\sayerproyectogithub\CapaPresentacionAdmin\bin\CapaDatos.dll.config

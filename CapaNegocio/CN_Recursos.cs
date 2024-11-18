@@ -19,7 +19,6 @@ namespace CapaNegocio
             return clave;
         }
 
-        //encriptación DE TEXTO en SHA256
         public static string ConvertirSha256(string texto)
         {
             StringBuilder Sb = new StringBuilder();
@@ -39,18 +38,14 @@ namespace CapaNegocio
         public static bool EnviarCorreo(string correo, string asunto, string mensaje)
         {
             bool resultado = false;
-
-
             try
             {
-
                 MailMessage mail = new MailMessage();
                 mail.To.Add(correo);
                 mail.From = new MailAddress("sayerdistribuidora@gmail.com");
                 mail.Subject = asunto;
                 mail.Body = mensaje;
                 mail.IsBodyHtml = true;
-
                 var smtp = new SmtpClient()
                 {
                     Credentials = new NetworkCredential("sayerdistribuidora@gmail.com", "uqss sthn cvrk vwhx"),
@@ -58,7 +53,6 @@ namespace CapaNegocio
                     Port = 587,
                     EnableSsl = true
                 };
-
                 smtp.Send(mail);
                 resultado = true;
 
