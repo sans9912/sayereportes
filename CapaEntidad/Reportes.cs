@@ -14,4 +14,11 @@ namespace CapaEntidad
         public DateTime Fecha { get; set; } 
         public string Mes { get; set; } 
     }
+
+    public class ReporteConReversion
+    {
+        public DateTime Fecha { get; set; }
+        public string Mes { get; set; }
+        public bool PermitirReversion { get; set; } 
+    }
 }

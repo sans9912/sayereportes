@@ -15,6 +15,11 @@ using System.Web.Services.Description;
 using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 using System.Configuration;
+using System.Net.Http.Headers;
+using System.Net.Http;
+using DocumentFormat.OpenXml.Drawing;
+
+
 
 
 namespace CapaPresentacionAdmin.Controllers
@@ -35,6 +40,50 @@ namespace CapaPresentacionAdmin.Controllers
         public ActionResult Dashboard()
         {
             return View();
+        }
+
+        public async Task<string> ObtenerPredicciones()
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://127.0.0.1:5000/");
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("ApiKey", "Lf7nh6iJTYbAqeFChWKYSsM3msyMcaF5aZDQUq67c4jtJcScaQaUnBDvvflh4F6kZK91yFRY5YECjfq4NVf2dJotoobrhjgC8jmy9EkqjXvDYRPeS57s5Vql45LxSZLa");
+
+                HttpResponseMessage response = await client.GetAsync("predicciones");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string resultado = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine("Respuesta de la API externa:", resultado);  // Mostrar la respuesta aquí
+                    return resultado;
+                }
+                else
+                {
+                    throw new Exception($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                }
+            }
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> ObtenerPrediccionesDashboard()
+        {
+            try
+            {
+                string resultado = await ObtenerPredicciones();
+                var predicciones = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resultado);
+
+
+                return Json(new
+                {
+                    Ventas = (double)predicciones.ventas,
+                    Utilidad = (double)predicciones.utilidad,
+                    Unidades = (double)predicciones.unidades
+                }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return new HttpStatusCodeResult(400, ex.Message);
+            }
         }
 
         public DataTable LeerExcel(HttpPostedFileBase archivo)
@@ -82,12 +131,14 @@ namespace CapaPresentacionAdmin.Controllers
             string mensajeError = string.Empty;
             string mensaje = string.Empty;
 
+            bool validacionRealizada = false;
+
             if (fileExcel != null)
             {
-                string extension = Path.GetExtension(fileExcel.FileName);
+                string extension = System.IO.Path.GetExtension(fileExcel.FileName);
                 if (extension == ".xls" || extension == ".xlsx")
                 {
-                    string nombreArchivo = Path.GetFileNameWithoutExtension(fileExcel.FileName).ToUpper();
+                    string nombreArchivo = System.IO.Path.GetFileNameWithoutExtension(fileExcel.FileName).ToUpper();
 
                     if (!System.Text.RegularExpressions.Regex.IsMatch(nombreArchivo, @"^[A-Z]+[0-9]{4}$"))
                     {
@@ -111,11 +162,21 @@ namespace CapaPresentacionAdmin.Controllers
 
                     string mesAnioTexto = fechaMes.ToString("MMMM yyyy");
 
-                    // Validación del mes en la capa de negocio
                     CN_Reportes capaNegocio = new CN_Reportes();
-                    if (capaNegocio.ExisteReporteParaMes(mesAnioTexto, out mensajeError))
+
+                    if (!validacionRealizada)
                     {
-                        return Json(new { resultado = false, mensaje = "Ya existe un reporte de esta fecha" });
+                        if (capaNegocio.ExisteReporteParaMes(mesAnioTexto, out mensajeError))
+                        {
+                            return Json(new { resultado = false, mensaje = "Ya existe un reporte de esta fecha" });
+                        }
+
+                        if (!string.IsNullOrEmpty(mensajeError))
+                        {
+                            return Json(new { resultado = false, mensaje = mensajeError });
+                        }
+
+                        validacionRealizada = true; 
                     }
 
                     try
@@ -229,15 +290,61 @@ namespace CapaPresentacionAdmin.Controllers
             throw new ArgumentException("Mes no válido.");
         }
 
-
         public ActionResult SinPermiso()
         {
             ViewBag.Message = "Usted no cuenta con permisos para ver esta página";
             return View();
         }
-       
-       
 
+        [HttpPost]
+        public ActionResult RevertirReporte()
+        {
+            try
+            {
+                CN_Reportes capaNegocio = new CN_Reportes();
+                string mensaje;
+
+                bool resultado = capaNegocio.RevertirUltimoMes(out mensaje);
+
+                if (resultado)
+                {
+                    return Json(new { resultado = true, mensaje });
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { resultado = false, mensaje = $"Ocurrió un error: {ex.Message}" });
+            }
+        }
+
+        [HttpGet]
+        public ActionResult ObtenerReportesSubidos()
+        {
+            try
+            {
+                CN_Reportes capaNegocio = new CN_Reportes();
+                string mensaje;
+                var listaReportes = capaNegocio.ObtenerReportesConReversion(out mensaje);
+
+               
+                if (listaReportes != null && listaReportes.Count > 0)
+                {
+                    return Json(new { resultado = true, listaReportes }, JsonRequestBehavior.AllowGet);
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje = "No se encontraron reportes." });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { resultado = false, mensaje = $"Ocurrió un error: {ex.Message}" });
+            }
+        }
 
     }
 

@@ -9,9 +9,7 @@
 
 <div class="card">
     <div class="card-header">
-
         <i class="fas fa-shopping-bag me-1"></i> Reporte de ventas
-        
     </div>
     <div class="card-body">
         <form id="frmSubida" method="post" enctype="multipart/form-data">
@@ -20,431 +18,176 @@
                     <input type="file" id="fileExcel" name="fileExcel" class="form-control" accept=".xlsx" />
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col-12">
-                    <button type="button" class="btn btn-primary" id="btnSubir"><i class="fas fa-upload"></i> Subir</button>
+                    <button type="button" class="btn btn-primary" id="btnSubir">
+                        <i class="fas fa-upload"></i> Subir
+                    </button>
                 </div>
+            </div>
+            <div class="mt-3" id="procesandoText" style="display: none;">
+                <p id="textoProcesando">No cierres la página, Procesando Reporte<span class="dot">...</span></p>
             </div>
         </form>
     </div>
+</div>
 
-    
-
-        <hr />
-
- </div>
-
-
-
-
+<div class="card mt-4">
+    <div class="card-header">
+        <i class="fas fa-list me-1"></i> Historial de reportes
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Mes</th>
+                    <th>Estado</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="tablaReportes">
+            </tbody>
+        </table>
+    </div>
+</div>
 
 @section scripts{
     <script>
+        var solicitudEnCurso = false; 
 
-        $("#btnSubir").click(function () {
-    var archivo = $("#fileExcel")[0].files[0];
+        $(document).ready(function () {
+            cargarReportes();
 
-    var request = new FormData();
-
-    request.append("fileExcel", archivo);
-
-    jQuery.ajax({
-        url: '@Url.Action("SubirReporte", "Mantenedor")',
-        type: "POST",
-        data: request,
-        processData: false,
-        contentType: false,
-        success: function (data) {
-            if (data.resultado) {
-                swal("Subida Exitosa", "El archivo se subió correctamente", "success");
-            } else {
-                swal("Error", data.mensaje, "error");
-            }
-        },
-        error: function (error) {
-            swal("Error de archivo", "El archivo no se subió correctamente", "error");
-            console.log(error);
-        }
-    });
-});
-
-
-
-
-        tabladata = $("#tabla").DataTable({
-            responsive: true,
-            ordering: false,
-            "ajax": {
-                url: '@Url.Action("ListarCompra", "Mantenedor")',
-                type: "GET",
-                dataType: "json"
-            },
-            "columns": [
-                {
-                    "data": "IdCompra", "render": function (data) {
-                        return data.IdCompra;
-                    }
-                },
-                {
-                    "data": "FechaRegistro",
-                    "render": function (data) {
-                        var fecha = new Date(parseInt(data.substr(6)));
-                        var fechaFormateada = fecha.toLocaleDateString();
-                        return fechaFormateada;
-                    }
-                },
-                {
-                    "data": "oUsuario", "render": function (data) {
-                        return data.Nombres + " " + data.Apellidos;
-                    }
-                },
-                {
-                    "data": "oProducto", "render": function (data) {
-                        return data.Nombre
-                    }
-                },
-                {
-                    "data": "cantidad", "render": function (data) {
-                        return data.cantidad;
-                    }
-                },
-                {
-                    "data": "precioCompra", "render": function (data) {
-                        return data.precioCompra;
-                    } },
-                {
-                    "data": "total", "render": function (data) {
-                        return data.cantidad;
-                    } },
-                /*{ "data": "FechaRegistro" }*/
-                //{
-                //    "data": "Activo", "render": function (valor) {
-                //        if (valor) {
-                //            return '<span class="badge bg-success">Si</span>'
-                //        } else {
-                //            return '<span class="badge bg-danger">No</span>'
-                //        }
-                //    }
-                //}
-
-            ],
-            "language": {
-                "url": "https://cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
-            }
-
-        });
-
-        jQuery.ajax({
-            url: '@Url.Action("ListarProducto", "Mantenedor")',
-            type: "GET",
-            data: null,
-            dataType: "json",
-            contentType: "application/json; charset=utf-8",
-            success: function (data) {
-                var usuarioEncontrado = false;
-                $("<option>").attr({ "value": "0", "disabled": "true" }).text("Seleccionar").appendTo("#cboproducto");
-                $.each(data.data, function (index, item) {
-                    $("<option>").attr({ "value": item.IdProducto }).text(item.Nombre).appendTo("#cboproducto");
-                })
-            },
-            error: function (error) {
-                console.log(error)
-            }
-        });
-
-
-
-        jQuery.ajax({
-            url: '@Url.Action("ListarUsuarios", "Home")',
-            type: "GET",
-            data: null,
-            dataType: "json",
-            contentType: "application/json; charset=utf-8",
-            success: function (data) {
-                var usuarioEncontrado = false;
-                /*$("<option>").attr({ "value": "0", "disabled": "true" }).text("Seleccionar").appendTo("#cbousuario");*/
-                $.each(data.data, function (index, item) {
-                    if (item.Correo === '@User.Identity.Name') {
-                        $("#txtnusuario").val(item.Nombres).attr("value", item.IdUsuario);
-                        usuarioEncontrado = true;
-                        $("#txtausuario").attr("value", item.IdUsuario).val(item.Apellidos);
-                        usuarioEncontrado = true;
-                return false; // Terminar el bucle $.each una vez encontrado el usuario
-                    }
-                });
-            },
-            error: function (error) {
-                console.log(error)
-            }
-        });
-
-
-
-        jQuery.validator.addMethod("preciodecimal", function (value, element) {
-            return this.optional(element) || /^\d{0,4}(\.\d{0,2})?$/i.test(value);
-        }, "El formato correcto del precio es ##.##");
-
-
-        $("#contenedor").validate({
-            rules: {
-                nombre: {
-                    required : true
-                },
-                descripcion: {
-                    required: true
-                },
-                precio: {
-                    required: true,
-                    preciodecimal: true
-                },
-                nuevoprecio: {
-                    required: true,
-                    preciodecimal: true
-                },
-                stock: {
-                    required: true,
-                    number:true
+           
+            $("#btnSubir").off("click").click(function () {
+                if (solicitudEnCurso) {
+                    swal("Espere", "Ya hay una solicitud en curso, por favor espere.", "info");
+                    return;
                 }
-            },
-            messages: {
-                nombre: "- El campo nombre es obligatorio",
-                descripcion: "- El campo descripcion es obligatorio",
-                precio: { required: "- El campo precio es obligario", preciodecimal: "- El formato correcto del precio es ##.##" },
-                nuevoprecio: { required: "- El campo nuevo precio es obligario", preciodecimal: "- El formato correcto del precio es ##.##" },
-                stock: { required: "- El campo stock es obligario", preciodecimal: "- Debe ingresar solo numeros en el stock" }
-            },
-            errorElement: "div",
-            errorLabelContainer: ".alert-danger"
-        })
 
+                var archivo = $("#fileExcel")[0].files[0];
 
+                if (!archivo) {
+                    swal("Error", "Por favor, selecciona un archivo", "error");
+                    return;
+                }
 
+                var extension = archivo.name.split('.').pop().toLowerCase();
+                if (extension !== "xlsx") {
+                    swal("Error", "Formato de archivo no válido. Solo se permiten archivos .xlsx", "error");
+                    return;
+                }
 
+                var request = new FormData();
+                request.append("fileExcel", archivo);
 
+                $("#procesandoText").show();
 
+                var dots = $("#dots");
+                var count = 0;
+                var interval = setInterval(function () {
+                    dots.text(".".repeat(count % 4));
+                    count++;
+                }, 500);
 
+               
+                solicitudEnCurso = true;
 
-        function abrirModal(json) {
-
-            $("#txtid").val(0);
-            $("#cboproducto").val($("#cboproducto option:first").val());
-            $("#txtprecio").val("");
-            $("#txtTotal").val("");
-            $("#txtstock").val("");
-            /*$("#cboactivo").val(1);*/
-
-            $("#mensajeError").hide();
-
-            if (json != null) {
-
-                $("#txtid").val(json.IdCompra);
-                $("#cboproducto").val(json.oProducto.IdProducto);
-                $("#txtnombre").val("");
-                $("#txtdescripcion").val("");
-                $("#txtprecio").val("");
-                $("#txtTotal").val("");
-                $("#txtstock").val("");
-                /*$("#cboactivo").val(1);*/
-
-
-                 jQuery.ajax({
-                    url: '@Url.Action("ImagenProducto", "Mantenedor")',
+                jQuery.ajax({
+                    url: '@Url.Action("SubirReporte", "Mantenedor")',
                     type: "POST",
-                     data: JSON.stringify({ id : json.IdProducto}),
-                    dataType: "json",
-                    contentType: "application/json; charset=utf-8",
-                     success: function (data) {
-
-                         $("#img_producto").LoadingOverlay("hide");
-
-                        if (data.conversion) {
-                            $("#img_producto").attr({ "src": "data:image/" + data.extension + ";base64," + data.textobase64 });
-                        }
-
-                         //$("#img_producto").attr({ "src": data.ruta});
-
-                    },
-                    error: function (error) {
-                        $("#img_producto").LoadingOverlay("hide");
-
-                        $("#mensajeError").show();
-                        $("#mensajeError").text("Error al mostrar imagen");
-
-                    },
-                    beforeSend: function () {
-                        $("#img_producto").LoadingOverlay("show");
-                    },
-                });
-
-
-
-
-            }
-
-            $("#FormModal").modal("show");
-        }
-
-
-        //$("#tabla tbody").on("click", '.btn-editar', function () {
-
-        //    filaSeleccionada = $(this).closest("tr");
-
-        //    var data =  tabladata.row(filaSeleccionada).data();
-
-        //    abrirModal(data)
-
-        //})
-
-
-
-        $("#tabla tbody").on("click", '.btn-eliminar', function () {
-
-            var compraseleccionada = $(this).closest("tr");
-
-            var data = tabladata.row(compraseleccionada).data();
-
-
-            swal({
-                title: "Esta Seguro?",
-                text: "¿Desea eliminar este registro?",
-                type: "warning",
-                showCancelButton: true,
-                confirmButtonClass: "btn-primary",
-                confirmButtonText: "Si",
-                cancelButtonText: "No",
-                closeOnConfirm: true
-            },
-            function () {
-
-                 jQuery.ajax({
-                    url: '@Url.Action("EliminarProducto", "Mantenedor")',
-                    type: "POST",
-                     data: JSON.stringify({ id: data.IdProducto }),
-                    dataType: "json",
-                    contentType: "application/json; charset=utf-8",
+                    data: request,
+                    processData: false,
+                    contentType: false,
                     success: function (data) {
-
+                        $("#procesandoText").hide();
+                        clearInterval(interval);
 
                         if (data.resultado) {
-
-                            tabladata.row(productoseleccionado).remove().draw();
+                            swal("Subida Exitosa", data.mensaje, "success");
                         } else {
-
-                            swal("No se pudo eliminar", data.mensaje, "error")
+                            swal("Error", data.mensaje, "error");
                         }
+
+                        cargarReportes();
+                        solicitudEnCurso = false; 
                     },
                     error: function (error) {
-                        console.log(error)
+                        $("#procesandoText").hide();
+                        clearInterval(interval);
+                        swal("Error de archivo", "El archivo no se subió correctamente", "error");
+                        console.log(error);
+                        solicitudEnCurso = false; 
                     }
                 });
-
-
-
-
             });
+        });
 
+        function cargarReportes() {
+            $.ajax({
+                url: '@Url.Action("ObtenerReportesSubidos", "Mantenedor")',
+                type: "GET",
+                success: function (data) {
+                    var tabla = $("#tablaReportes");
+                    tabla.empty();
 
-            console.log(data);
+                    if (data.resultado && data.listaReportes) {
+                        data.listaReportes.forEach(function (reporte) {
+                            var estado = reporte.Fecha ? "Guardado exitosamente" : "Pendiente";
+                            var btnRevertir = '';
 
-        })
+                            if (reporte.PermitirReversion) {
+                                btnRevertir = `
+                                    <button class="btn btn-danger btn-sm" onclick="revertirReporte('${reporte.Mes}')">
+                                        <i class="fas fa-undo-alt"></i> Revertir
+                                    </button>
+                                `;
+                            }
 
-        function Guardar() {
-
-            if (!$("#contenedor").valid()) {
-                return;
-            }
-            /*var ImagenSeleccionada = $("#fileProducto")[0].files[0];*/
-
-            var Compra = {
-                IdCompra: $("#txtid").val(),
-                precioCompra: $("#txtprecio").val(),
-                precioCompraTexto: $("#txtprecio").val(),
-                total: $("#txtTotal").val(),
-                totalTexto: $("#txtTotal").val(),
-                oProducto: {
-                    IdProducto: $("#cboproducto option:selected").val(),
-                    Nombre: $("#cboproducto option:selected").text()
-                },
-                oUsuario: {
-
-                    IdUsuario: $("#txtnusuario").attr("value"),
-                    Nombres: $("#txtnusuario").val(),
-                    Apellidos: $("#txtausuario").val()
-                },
-                cantidad: $("#txtstock").val(),
-                /*Activo: $("#cboactivo").val() == 1 ? true : false,*/
-                Activo: true,
-                FechaRegistro: new Date()
-            }
-
-            var request = new FormData();
-            request.append("objeto", JSON.stringify(Compra))
-            /*request.append("archivoImagen", ImagenSeleccionada)*/
-
-
-
-           jQuery.ajax({
-                url: '@Url.Action("GuardarCompra", "Mantenedor")',
-                type: "POST",
-               data: request,
-               processData: false,
-               contentType:false,
-               success: function (data) {
-
-                   $(".modal-body").LoadingOverlay("hide");
-
-                    //COMPRA NUEVO
-                   if (Compra.IdCompra == 0) {
-
-                       if (data.idGenerado != 0) {
-                           /*Compra.idCompra = data.idCompra;*/
-                           Compra.IdCompra = data.resultado;
-                           tabladata.row.add(Compra).draw(false);
-                           $("#FormModal").modal("hide");
-
-                        } else {
-                            $("#mensajeError").text(data.mensaje);
-                            $("#mensajeError").show();
-                        }
-                    }
-                    //PRODUCTO EDITAR
-                    else {
-
-                       if (data.operacionExitosa) {
-
-                            tabladata.row(filaSeleccionada).data(Producto).draw(false);
-                            filaSeleccionada = null;
-                            $("#FormModal").modal("hide");
-                        } else {
-                            $("#mensajeError").text(data.mensaje);
-                            $("#mensajeError").show();
-                        }
+                            tabla.append(`
+                                <tr>
+                                    <td>${reporte.Mes}</td>
+                                    <td>${estado}</td>
+                                    <td>${btnRevertir}</td>
+                                </tr>
+                            `);
+                        });
+                    } else {
+                        swal("Error", "No se encontraron reportes", "error");
                     }
                 },
-               error: function (error) {
-
-                   $(".modal-body").LoadingOverlay("hide");
-                   $("#mensajeError").text("Error Ajax");
-                   $("#mensajeError").show();
-                },
-                beforeSend: function () {
-                    $(".modal-body").LoadingOverlay("show", {
-                        imageResizeFactor: 2,
-                        text: "Cargando...",
-                        size: 14
-                    })
+                error: function (error) {
+                    swal("Error", "No se pudo cargar el historial de reportes", "error");
+                    console.log(error);
                 }
             });
-
-
-
-
         }
 
-
-
+        function revertirReporte(mes) {
+            $.ajax({
+                url: '@Url.Action("RevertirReporte", "Mantenedor")',
+                type: "POST",
+                data: { mes: mes },
+                success: function (data) {
+                    if (data.resultado) {
+                        swal("Reversión Exitosa", data.mensaje, "success");
+                        cargarReportes();
+                    } else {
+                        swal("Error", data.mensaje, "error");
+                    }
+                },
+                error: function (error) {
+                    swal("Error", "No se pudo revertir el reporte", "error");
+                    console.log(error);
+                }
+            });
+        }
     </script>
-
-
 }
 
+<style>
+    #procesandoText p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
