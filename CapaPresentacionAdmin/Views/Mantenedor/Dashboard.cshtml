@@ -7,73 +7,354 @@
     <li class="breadcrumb-item active">Visualización de resultados de proyecciones</li>
 </ol>
 
-<div class="card mb-4 bg-info bg-opacity-10">
-    <div class="card-header">
-        <i class="fas fa-file-alt me-1"></i>
-        Dashboard
+<div id="errorMensaje" class="alert alert-danger d-none"></div>
+<div class="col-sm-2">
+    <div class="d-grid mb-2">
+        <button id="descargarPDF">
+            <i class="fas fa-file-pdf"></i> Exportar
+        </button>
     </div>
-    <div class="card mb-4 bg-info bg-opacity-10">
-        <div class="card-header">
-            <i class="fas fa-file-alt me-1"></i>
-            Dashboard - Resultados de Proyecciones
+</div>
+<div id="dashboardContent">
+    <div class="row">
+
+        <div class="col-xl-6 col-lg-12 mb-4">
+            <div class="card">
+                <div class="card-header">Predicción de Ventas por mes</div>
+                <div class="card-body">
+                    <canvas id="graficoVentas"></canvas>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            <div id="resultadosPredicciones">
-                <p><strong>Ventas proyectadas:</strong> <span id="ventasProyectadas">Cargando...</span></p>
-                <p><strong>Utilidad proyectada:</strong> <span id="utilidadProyectada">Cargando...</span></p>
-                <p><strong>Unidades proyectadas:</strong> <span id="unidadesProyectadas">Cargando...</span></p>
+
+        <div class="col-xl-6 col-lg-12 mb-4">
+            <div class="card">
+                <div class="card-header">Predicción de Utilidad por mes</div>
+                <div class="card-body">
+                    <canvas id="graficoUtilidad"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-12 mb-4">
+            <div class="card">
+                <div class="card-header">Predicción de Unidades vendidas por mes</div>
+                <div class="card-body">
+                    <canvas id="graficoUnidades"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-12 mb-4">
+            <div class="card">
+                <div class="card-header">Top 5 Productos Más Vendidos</div>
+                <div class="card-body">
+                    <canvas id="graficoTopProductos"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-10 col-lg-12 mb-4">
+            <div class="card">
+                <div class="card-header">Top 5 Productos con Mayor Utilidad</div>
+                <div class="card-body">
+                    <canvas id="graficoUtilidadProductos"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-10 col-lg-12 mb-4">
+            <div class="card">
+                <div class="card-header">Mapa de Calor de Ventas</div>
+                <div class="card-body">
+                    <canvas id="mapaCalor"></canvas>
+                </div>
             </div>
         </div>
     </div>
-
 </div>
 
+
+
 @section scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script>
-        $(document).ready(function () {
-   
-            obtenerPredicciones();
 
-            function obtenerPredicciones() {
-                var url = '@Url.Action("ObtenerPrediccionesDashboard", "Mantenedor")'; 
+        document.getElementById("descargarPDF").addEventListener("click", async function () {
+            const pdf = new jspdf.jsPDF();
+            const charts = document.querySelectorAll("canvas");
+            const currentDate = new Date();
+            const dateFormatted = currentDate.toLocaleDateString("es-ES", { year: 'numeric', month: 'long', day: 'numeric' });
 
-                $.ajax({
-                    url: url,
-                    type: "GET",
-                    success: function (data) {
-                    
-                        var ventas = parseFloat(data.Ventas);
-                        var utilidad = parseFloat(data.Utilidad);
-                        var unidades = parseFloat(data.Unidades);
+          
+            let ultimoMes = currentDate
+                .toLocaleDateString("es-ES", { year: 'numeric', month: '2-digit', day: '2-digit' })
+                .replace(/\//g, "-");
+            let tituloArchivo = "Predicciones Sayer";
 
-                        if (!isNaN(ventas)) {
-                            $("#ventasProyectadas").text(ventas.toFixed(2));
-                        } else {
-                            $("#ventasProyectadas").text("Datos no válidos");
-                        }
+            
+            pdf.setFontSize(16);
+            pdf.text("Dashboard Principal – Distribuidora Sayer", 10, 10);
+            pdf.setFontSize(12);
+            pdf.text(`Fecha de emisión: ${dateFormatted}`, 10, 20);
 
-                        if (!isNaN(utilidad)) {
-                            $("#utilidadProyectada").text(utilidad.toFixed(2));
-                        } else {
-                            $("#utilidadProyectada").text("Datos no válidos");
-                        }
+            
+            let yOffset = 30; 
+            for (const [index, chart] of charts.entries()) {
+                const canvas = await html2canvas(chart);
+                const imgData = canvas.toDataURL("image/png");
+                const imgProps = pdf.getImageProperties(imgData);
+                const pdfWidth = pdf.internal.pageSize.getWidth();
+                const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
 
-                        if (!isNaN(unidades)) {
-                            $("#unidadesProyectadas").text(unidades.toFixed(0));
-                        } else {
-                            $("#unidadesProyectadas").text("Datos no válidos");
-                        }
+                if (yOffset + pdfHeight > pdf.internal.pageSize.getHeight()) {
+                    pdf.addPage(); 
+                    yOffset = 10;
+                }
 
-                        
-                    },
-                    error: function (xhr, status, error) {
-                        console.error("Error al obtener las predicciones:", error);
-                        $("#ventasProyectadas").text("Error al cargar datos");
-                        $("#utilidadProyectada").text("Error al cargar datos");
-                        $("#unidadesProyectadas").text("Error al cargar datos");
+                pdf.addImage(imgData, "PNG", 10, yOffset, pdfWidth - 20, pdfHeight);
+                yOffset += pdfHeight + 10; 
+            }
+
+        
+            tituloArchivo = `Predicciones Sayer ${ultimoMes}`;
+            pdf.save(`${tituloArchivo}.pdf`);
+        });
+
+
+    $(document).ready(function () {
+        var url = '@Url.Action("ObtenerDatosDashboard", "Mantenedor")';
+        $.ajax({
+            url: url,
+            type: "GET",
+            success: function (data) {
+                console.log("Datos recibidos:", data);
+
+                if (data && data.datos) {
+                    var datos = JSON.parse(data.datos);
+
+                    if (!Array.isArray(datos)) {
+                        mostrarError("Los datos recibidos no son un arreglo.");
+                        return;
                     }
-                });
+
+                    datos = datos.map(item => ({
+                        ...item,
+                        Ventas: parseFloat(item.Ventas.toFixed(2)),
+                        Utilidad: parseFloat(item.Utilidad.toFixed(2)),
+                        Unidades: Math.round(item.Unidades)
+                    }));
+
+                    if (!validarDatos(datos)) {
+                        mostrarError("Los datos recibidos están incompletos o tienen errores.");
+                        return;
+                    }
+
+                    let meses = datos.map(item => item.Mes);
+                    let ventas = datos.map(item => item.Ventas);
+                    let utilidad = datos.map(item => item.Utilidad);
+                    let unidades = datos.map(item => item.Unidades);
+
+
+                    renderLineChart('graficoVentas', meses, ventas, 'Ventas ($)');
+                    renderLineChart('graficoUtilidad', meses, utilidad, 'Utilidad ($)');
+                    renderLineChart('graficoUnidades', meses, unidades, 'Unidades');
+                } else {
+                    mostrarError("Los datos no están en el formato esperado.");
+                }
+            },
+            error: function (xhr, status, error) {
+                mostrarError(`Error al obtener datos del servidor: ${status} - ${error}`);
             }
         });
+
+        function renderPieChart(canvasId, data) {
+            var ctx = document.getElementById(canvasId);
+            if (!ctx) {
+                console.error(`Canvas con id ${canvasId} no encontrado.`);
+                return;
+            }
+
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: data.map(item => item.label),
+                    datasets: [{
+                        data: data.map(item => item.value),
+                        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
+                        hoverBackgroundColor: ['#FF5733', '#1E90FF', '#FFDD44', '#40E0D0', '#FFA500']
+                    }]
+                }
+            });
+        }
+
+        var urlTopProductos = '@Url.Action("ObtenerTopProductosVendidos", "Mantenedor")';
+        $.ajax({
+            url: urlTopProductos,
+            type: "GET",
+            success: function (data) {
+                if (data.success) {
+                    var productos = JSON.parse(data.datos);
+                    console.log(productos);
+                    var topProductos = productos.map(item => ({
+                        label: item.Articulo,
+                        value: item.Unidades
+                    }));
+                    renderPieChart('graficoTopProductos', topProductos);
+                } else {
+                    mostrarError(data.message);
+                }
+            },
+            error: function (xhr, status, error) {
+                mostrarError(`Error al obtener los productos más vendidos: ${status} - ${error}`);
+            }
+        });
+
+
+      var urlUtilidadProductos = '@Url.Action("ObtenerProductosMayorUtilidad", "Mantenedor")';
+$.ajax({
+    url: urlUtilidadProductos,
+    type: "GET",
+    success: function (data) {
+
+
+        if (data.success) {
+
+            var productosUtilidad = data.datos;
+            productosUtilidad = productosUtilidad.sort((a, b) => b.Utilidad - a.Utilidad).slice(0, 5);
+
+
+
+            var utilidadProductos = productosUtilidad.map(item => ({
+                label: item.Articulo,
+                value: item.Utilidad
+            }));
+
+
+
+            renderBarChart('graficoUtilidadProductos', utilidadProductos);
+
+        } else {
+            console.error("Error al obtener los productos con mayor utilidad:", data.message);
+            mostrarError(data.message);
+        }
+    },
+    error: function (xhr, status, error) {
+        console.error(`Error en la solicitud: ${status} - ${error}`);
+        mostrarError(`Error al obtener los productos con mayor utilidad: ${status} - ${error}`);
+    }
+});
+
+        var urlMapaCalor = '@Url.Action("ObtenerMapaCalorVentas", "Mantenedor")';
+        $.ajax({
+            url: urlMapaCalor,
+            type: "GET",
+            success: function (data) {
+                if (data.success) {
+                    var mapaCalor = JSON.parse(data.datos);
+                    var meses = mapaCalor.map(item => item.Mes);
+                    var ventas = mapaCalor.map(item => item.Ventas);
+
+                    var maxVentas = Math.max(...ventas);
+                    var colorScale = ventas.map(venta => `rgba(${255 - (venta / maxVentas) * 255}, ${(venta / maxVentas) * 255}, 0, 0.6)`);
+
+                    renderHeatMap('mapaCalor', meses, ventas, colorScale);
+                } else {
+                    mostrarError(data.message);
+                }
+            },
+            error: function (xhr, status, error) {
+                mostrarError(`Error al obtener el mapa de calor de ventas: ${status} - ${error}`);
+            }
+        });
+
+        function renderLineChart(canvasId, labels, data, label) {
+            var ctx = document.getElementById(canvasId);
+            if (!ctx) {
+                console.error(`Canvas con id ${canvasId} no encontrado.`);
+                return;
+            }
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: label,
+                        data: data,
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        tension: 0.4
+                    }]
+                }
+            });
+        }
+
+        function renderBarChart(canvasId, data) {
+            var ctx = document.getElementById(canvasId);
+            if (!ctx) {
+                console.error(`Canvas con id ${canvasId} no encontrado.`);
+                return;
+            }
+
+            var labels = data.map(item => item.label);
+            var values = data.map(item => item.value);
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Utilidad ($)',
+                        data: values,
+                        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                }
+            });
+        }
+
+        function renderHeatMap(canvasId, labels, data, colorScale) {
+            var ctx = document.getElementById(canvasId);
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Ventas ($)',
+                        data: data,
+                        backgroundColor: colorScale,
+                        borderColor: colorScale,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        },
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function validarDatos(data) {
+            return data.every(item =>
+                item.Mes && typeof item.Mes === "string" &&
+                !isNaN(item.Ventas) && typeof item.Ventas === "number" &&
+                !isNaN(item.Utilidad) && typeof item.Utilidad === "number" &&
+                !isNaN(item.Unidades) && typeof item.Unidades === "number");
+        }
+
+        function mostrarError(mensaje) {
+            $('#errorMensaje').text(mensaje).removeClass('d-none');
+        }
+    });
     </script>
 }

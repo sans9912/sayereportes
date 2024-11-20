@@ -176,5 +176,159 @@ namespace CapaDatos
 
             return listaReportesConReversion;
         }
+
+        public List<dynamic> ObtenerTendenciasMensuales()
+        {
+            List<dynamic> tendencias = new List<dynamic>();
+            try
+            {
+                using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = @"
+                    SELECT Mes, 
+                           SUM(Venta) AS TotalVentas, 
+                           SUM(Utilidad) AS TotalUtilidad, 
+                           SUM(Unidades) AS TotalUnidades
+                    FROM reportes
+                    GROUP BY Mes
+                    ORDER BY MIN(Fecha) ASC;";
+
+                    SqlCommand cmd = new SqlCommand(query, oconexion);
+                    oconexion.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            tendencias.Add(new
+                            {
+                                Mes = dr["Mes"].ToString(),
+                                Ventas = Convert.ToDecimal(dr["TotalVentas"]),
+                                Utilidad = Convert.ToDecimal(dr["TotalUtilidad"]),
+                                Unidades = Convert.ToInt32(dr["TotalUnidades"])
+                            });
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener tendencias mensuales: " + ex.Message);
+            }
+
+            return tendencias;
+        }
+
+        
+        public List<dynamic> ObtenerTopProductosVendidos()
+        {
+            List<dynamic> topProductos = new List<dynamic>();
+            try
+            {
+                using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = @"
+                    SELECT TOP 5 Articulo, SUM(Unidades) AS TotalUnidades
+                    FROM reportes
+                    GROUP BY Articulo
+                    ORDER BY SUM(Unidades) DESC;";
+
+                    SqlCommand cmd = new SqlCommand(query, oconexion);
+                    oconexion.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            topProductos.Add(new
+                            {
+                                Articulo = dr["Articulo"].ToString(),
+                                Unidades = Convert.ToInt32(dr["TotalUnidades"])
+                            });
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los productos más vendidos: " + ex.Message);
+            }
+
+            return topProductos;
+        }
+
+     
+        public List<dynamic> ObtenerProductosMayorUtilidad()
+        {
+            List<dynamic> topUtilidad = new List<dynamic>();
+            try
+            {
+                using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = @"
+                    SELECT Articulo, SUM(Utilidad) AS TotalUtilidad
+                    FROM reportes
+                    GROUP BY Articulo
+                    ORDER BY SUM(Utilidad) DESC;";
+
+                    SqlCommand cmd = new SqlCommand(query, oconexion);
+                    oconexion.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            topUtilidad.Add(new
+                            {
+                                Articulo = dr["Articulo"].ToString(),
+                                Utilidad = Convert.ToDecimal(dr["TotalUtilidad"])
+                            });
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los productos con mayor utilidad: " + ex.Message);
+            }
+
+            return topUtilidad;
+        }
+
+       
+        public List<dynamic> ObtenerMapaCalorVentas()
+        {
+            List<dynamic> mapaCalor = new List<dynamic>();
+            try
+            {
+                using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = @"
+                    SELECT Mes, SUM(Venta) AS TotalVentas
+                    FROM reportes
+                    GROUP BY Mes
+                    ORDER BY MIN(Fecha) ASC;";
+
+                    SqlCommand cmd = new SqlCommand(query, oconexion);
+                    oconexion.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            mapaCalor.Add(new
+                            {
+                                Mes = dr["Mes"].ToString(),
+                                Ventas = Convert.ToDecimal(dr["TotalVentas"])
+                            });
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al generar el mapa de calor: " + ex.Message);
+            }
+
+            return mapaCalor;
+        }
+
+
     }
 }

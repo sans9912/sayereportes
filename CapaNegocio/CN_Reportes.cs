@@ -106,6 +106,91 @@ namespace CapaNegocio
 
             return reportesConReversion;
         }
+
+        public List<dynamic> ObtenerTendenciasMensuales(out string mensaje)
+        {
+            mensaje = string.Empty;
+            try
+            {
+                var tendencias = objCapaDato.ObtenerTendenciasMensuales();
+                if (tendencias == null || tendencias.Count == 0)
+                {
+                    mensaje = "No se encontraron datos de tendencias mensuales.";
+                    return null;
+                }
+                return tendencias;
+            }
+            catch (Exception ex)
+            {
+                mensaje = "Ocurrió un error al obtener las tendencias mensuales: " + ex.Message;
+                return null;
+            }
+        }
+
+       
+        public List<dynamic> ObtenerTopProductosVendidos(out string mensaje)
+        {
+            mensaje = string.Empty;
+            try
+            {
+                var topProductos = objCapaDato.ObtenerTopProductosVendidos();
+                if (topProductos == null || topProductos.Count == 0)
+                {
+                    mensaje = "No se encontraron datos de los productos más vendidos.";
+                    return null;
+                }
+                return topProductos;
+            }
+            catch (Exception ex)
+            {
+                mensaje = "Ocurrió un error al obtener los productos más vendidos: " + ex.Message;
+                return null;
+            }
+        }
+
+      
+        public List<dynamic> ObtenerProductosMayorUtilidad(out string mensaje)
+        {
+            mensaje = string.Empty;
+            try
+            {
+                var topUtilidad = objCapaDato.ObtenerProductosMayorUtilidad();
+                if (topUtilidad == null || topUtilidad.Count == 0)
+                {
+                    mensaje = "No se encontraron datos de los productos con mayor utilidad.";
+                    return null;
+                }
+                return topUtilidad;
+            }
+            catch (Exception ex)
+            {
+                mensaje = "Ocurrió un error al obtener los productos con mayor utilidad: " + ex.Message;
+                return null;
+            }
+        }
+
+    
+        public List<dynamic> ObtenerMapaCalorVentas(out string mensaje)
+        {
+            mensaje = string.Empty;
+            try
+            {
+                var mapaCalor = objCapaDato.ObtenerMapaCalorVentas();
+                if (mapaCalor == null || mapaCalor.Count == 0)
+                {
+                    mensaje = "No se encontraron datos para generar el mapa de calor.";
+                    return null;
+                }
+                return mapaCalor;
+            }
+            catch (Exception ex)
+            {
+                mensaje = "Ocurrió un error al obtener el mapa de calor de ventas: " + ex.Message;
+                return null;
+            }
+        }
+
+
     }
 
 }

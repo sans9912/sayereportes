@@ -28,10 +28,10 @@ namespace CapaPresentacionAdmin.Controllers
     [Authorize]
     public class MantenedorController : Controller
     {
-       
-       
+
+        private CN_Reportes capaNegocio = new CN_Reportes();
         //[PermisosRol(CapaEntidad.Rol.JefeDeVentas)]
-       
+
         public ActionResult Subida()
         {
             return View();
@@ -41,6 +41,106 @@ namespace CapaPresentacionAdmin.Controllers
         {
             return View();
         }
+
+
+        public async Task<JsonResult> ObtenerDatosDashboard()
+        {
+            try
+            {
+                string mensaje = string.Empty;
+
+                var tendencias = capaNegocio.ObtenerTendenciasMensuales(out mensaje);
+                if (tendencias == null || !tendencias.Any())
+                {
+                    return Json(new { success = false, message = "No se encontraron tendencias mensuales." });
+                }
+
+                string prediccionJson = await ObtenerPredicciones();
+                var predicciones = JsonConvert.DeserializeObject<Predicciones>(prediccionJson);
+                if (predicciones == null)
+                {
+                    return Json(new { success = false, message = "No se pudieron obtener las predicciones." });
+                }
+
+             
+                var proximoMes = DateTime.Now.ToString("MMMM yyyy");
+                tendencias.Add(new
+                {
+                    Mes = proximoMes,
+                    Ventas = predicciones.Ventas,
+                    Utilidad = predicciones.Utilidad,
+                    Unidades = Math.Round(predicciones.Unidades, 0)
+                });
+
+                return Json(new { success = true, datos = JsonConvert.SerializeObject(tendencias) }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = $"Error al obtener los datos: {ex.Message}" });
+            }
+        }
+
+        public async Task<JsonResult> ObtenerTopProductosVendidos()
+        {
+            try
+            {
+                string mensaje = string.Empty;
+
+                var topProductos = capaNegocio.ObtenerTopProductosVendidos(out mensaje);
+                if (topProductos == null || !topProductos.Any())
+                {
+                    return Json(new { success = false, message = "No se encontraron datos de los productos más vendidos." });
+                }
+
+                return Json(new { success = true, datos = JsonConvert.SerializeObject(topProductos) }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = $"Error al obtener los productos más vendidos: {ex.Message}" });
+            }
+        }
+
+        public async Task<JsonResult> ObtenerProductosMayorUtilidad()
+        {
+            try
+            {
+                string mensaje = string.Empty;
+
+                var productosUtilidad = capaNegocio.ObtenerProductosMayorUtilidad(out mensaje);
+                if (productosUtilidad == null || !productosUtilidad.Any())
+                {
+                    return Json(new { success = false, message = "No se encontraron datos de los productos con mayor utilidad." });
+                }
+
+                // En lugar de serializar, solo devolver la lista
+                return Json(new { success = true, datos = productosUtilidad }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = $"Error al obtener los productos con mayor utilidad: {ex.Message}" });
+            }
+        }
+
+        public async Task<JsonResult> ObtenerMapaCalorVentas()
+        {
+            try
+            {
+                string mensaje = string.Empty;
+
+                var mapaCalor = capaNegocio.ObtenerMapaCalorVentas(out mensaje);
+                if (mapaCalor == null || !mapaCalor.Any())
+                {
+                    return Json(new { success = false, message = "No se encontraron datos para el mapa de calor de ventas." });
+                }
+
+                return Json(new { success = true, datos = JsonConvert.SerializeObject(mapaCalor) }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = $"Error al obtener el mapa de calor de ventas: {ex.Message}" });
+            }
+        }
+
 
         public async Task<string> ObtenerPredicciones()
         {
@@ -54,7 +154,20 @@ namespace CapaPresentacionAdmin.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     string resultado = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine("Respuesta de la API externa:", resultado);  // Mostrar la respuesta aquí
+
+                    try
+                    {
+                        var json = JsonConvert.DeserializeObject<Predicciones>(resultado);
+                        if (json == null)
+                        {
+                            throw new Exception("El JSON devuelto por la API no es válido.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        throw new Exception($"Error al analizar el JSON de la API: {ex.Message}");
+                    }
+
                     return resultado;
                 }
                 else
@@ -63,6 +176,7 @@ namespace CapaPresentacionAdmin.Controllers
                 }
             }
         }
+
 
         [HttpGet]
         public async Task<ActionResult> ObtenerPrediccionesDashboard()
@@ -85,6 +199,8 @@ namespace CapaPresentacionAdmin.Controllers
                 return new HttpStatusCodeResult(400, ex.Message);
             }
         }
+
+
 
         public DataTable LeerExcel(HttpPostedFileBase archivo)
         {
