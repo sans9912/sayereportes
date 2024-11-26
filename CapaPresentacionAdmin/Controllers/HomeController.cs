@@ -20,26 +20,32 @@ namespace CapaPresentacionAdmin.Controllers
             return View();
         }
 
-        public ActionResult Eventos()
-        {
-            return View();
-        }
-      
+        
 
         [PermisosRol(CapaEntidad.Rol.Administrador)]
         public ActionResult Usuarios()
         {
             return View();
         }
+
+        [PermisosRol(CapaEntidad.Rol.Administrador)]
+        public ActionResult Eventos()
+        {
+            return View();
+        }
+
         [PermisosRol(CapaEntidad.Rol.Administrador)]
         public ActionResult Clientes()
         {
             return View();
         }
+
+        [PermisosRol(CapaEntidad.Rol.Administrador)]
         public ActionResult CrearUsuario()
         {
             return View();
         }
+
         public ActionResult SinPermiso()
         {
             ViewBag.Message = "Usted no cuenta con permisos para ver esta página";

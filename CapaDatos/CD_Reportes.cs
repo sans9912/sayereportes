@@ -218,7 +218,36 @@ namespace CapaDatos
             return tendencias;
         }
 
-        
+        public string ObtenerProximoMes()
+        {
+            try
+            {
+                using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = @"
+                SELECT TOP 1 
+                       DATEADD(MONTH, 1, MAX(Fecha)) AS ProximoMes
+                FROM reportes;";
+
+                    SqlCommand cmd = new SqlCommand(query, oconexion);
+                    oconexion.Open();
+
+                    object resultado = cmd.ExecuteScalar();
+                    if (resultado != null && resultado != DBNull.Value)
+                    {
+                        DateTime proximoMes = Convert.ToDateTime(resultado);
+                        return proximoMes.ToString("MMMM yyyy", new System.Globalization.CultureInfo("es-ES"));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el próximo mes: " + ex.Message);
+            }
+
+            return string.Empty;
+        }
+
         public List<dynamic> ObtenerTopProductosVendidos()
         {
             List<dynamic> topProductos = new List<dynamic>();
@@ -329,6 +358,169 @@ namespace CapaDatos
             return mapaCalor;
         }
 
+        public int GuardarReportePDF(string nombreArchivo, byte[] archivoData, out string mensaje)
+        {
+            int idAutogenerado = 0;
+            mensaje = string.Empty;
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = "INSERT INTO ReportesArchivos (NombreArchivo, TipoArchivo, Archivo, FechaRegistro) " +
+                                   "VALUES (@NombreArchivo, @TipoArchivo, @Archivo, @FechaRegistro); " +
+                                   "SELECT SCOPE_IDENTITY();";
+
+                    SqlCommand cmd = new SqlCommand(query, conexion);
+                    cmd.CommandType = CommandType.Text;
+
+                    cmd.Parameters.AddWithValue("@NombreArchivo", nombreArchivo);
+                    cmd.Parameters.AddWithValue("@TipoArchivo", "application/pdf");
+                    cmd.Parameters.AddWithValue("@Archivo", archivoData);
+                    cmd.Parameters.AddWithValue("@FechaRegistro", DateTime.Now);
+
+                    conexion.Open();
+
+                    idAutogenerado = Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            catch (Exception ex)
+            {
+                idAutogenerado = 0;
+                mensaje = ex.Message;
+            }
+
+            return idAutogenerado;
+        }
+
+
+        public int ActualizarReportePDF(string nombreArchivo, byte[] archivoData, out string mensaje)
+        {
+            int filasAfectadas = 0;
+            mensaje = string.Empty;
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = "UPDATE ReportesArchivos SET Archivo = @Archivo, FechaRegistro = @FechaRegistro " +
+                                   "WHERE NombreArchivo = @NombreArchivo";
+
+                    SqlCommand cmd = new SqlCommand(query, conexion);
+                    cmd.CommandType = CommandType.Text;
+
+                    cmd.Parameters.AddWithValue("@NombreArchivo", nombreArchivo);
+                    cmd.Parameters.AddWithValue("@Archivo", archivoData);
+                    cmd.Parameters.AddWithValue("@FechaRegistro", DateTime.Now);
+
+                    conexion.Open();
+
+                    filasAfectadas = cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                mensaje = ex.Message;
+            }
+
+            return filasAfectadas;
+        }
+
+ 
+        public bool ExisteArchivo(string nombreArchivo)
+        {
+            bool existe = false;
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cn))
+                {
+                    string query = "SELECT COUNT(*) FROM ReportesArchivos WHERE NombreArchivo = @NombreArchivo";
+
+                    SqlCommand cmd = new SqlCommand(query, conexion);
+                    cmd.Parameters.AddWithValue("@NombreArchivo", nombreArchivo);
+
+                    conexion.Open();
+                    int count = Convert.ToInt32(cmd.ExecuteScalar());
+
+                    existe = count > 0;
+                }
+            }
+            catch (Exception)
+            {
+                existe = false;
+            }
+
+            return existe;
+        }
+
+        public List<ReportePDF> ObtenerReportes()
+        {
+            List<ReportePDF> reportes = new List<ReportePDF>();
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cn))  
+                {
+                    string query = "SELECT Id, NombreArchivo, FechaRegistro FROM ReportesArchivos";
+                    SqlCommand cmd = new SqlCommand(query, conexion);
+
+                    conexion.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        reportes.Add(new ReportePDF
+                        {
+                            Id = reader.GetInt32(0),
+                            NombreArchivo = reader.GetString(1),
+                            FechaRegistro = reader.GetDateTime(2)
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejo de excepción
+            }
+
+            return reportes;
+        }
+
+
+        public ReportePDF ObtenerReportePorId(int id)
+        {
+            ReportePDF reporte = null;
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cn))  
+                {
+                    string query = "SELECT Id, NombreArchivo, Archivo, FechaRegistro FROM ReportesArchivos WHERE Id = @Id";
+                    SqlCommand cmd = new SqlCommand(query, conexion);
+                    cmd.Parameters.AddWithValue("@Id", id);
+
+                    conexion.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        reporte = new ReportePDF
+                        {
+                            Id = reader.GetInt32(0),
+                            NombreArchivo = reader.GetString(1),
+                            Archivo = reader["Archivo"] as byte[],  
+                            FechaRegistro = reader.GetDateTime(3)
+                        };
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                
+            }
+
+            return reporte;
+        }
 
     }
 }

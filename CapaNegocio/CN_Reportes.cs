@@ -127,7 +127,20 @@ namespace CapaNegocio
             }
         }
 
-       
+        public string ObtenerProximoMes(out string mensaje)
+        {
+            mensaje = string.Empty;
+            try
+            {
+                return objCapaDato.ObtenerProximoMes();
+            }
+            catch (Exception ex)
+            {
+                mensaje = "Ocurrió un error al obtener el próximo mes: " + ex.Message;
+                return string.Empty;
+            }
+        }
+
         public List<dynamic> ObtenerTopProductosVendidos(out string mensaje)
         {
             mensaje = string.Empty;
@@ -190,6 +203,33 @@ namespace CapaNegocio
             }
         }
 
+        public int GuardarPDF(byte[] archivoData, string nombreArchivo, out string mensaje)
+        {
+            mensaje = string.Empty;
+            int resultado = 0;
+
+            if (objCapaDato.ExisteArchivo(nombreArchivo))
+            {
+                resultado = objCapaDato.ActualizarReportePDF(nombreArchivo, archivoData, out mensaje);
+            }
+            else
+            {
+                resultado = objCapaDato.GuardarReportePDF(nombreArchivo, archivoData, out mensaje);
+            }
+
+            return resultado;
+        }
+
+        public List<ReportePDF> ObtenerReportes()
+        {
+            return objCapaDato.ObtenerReportes();
+        }
+
+    
+        public ReportePDF ObtenerReportePorId(int id)
+        {
+            return objCapaDato.ObtenerReportePorId(id);
+        }
 
     }
 

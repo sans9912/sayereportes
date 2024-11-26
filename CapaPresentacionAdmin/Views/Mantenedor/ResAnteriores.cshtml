@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Resultados Anteriores";
+}
+
+<h1 class="mt-4">Resultados Anteriores</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Consultar y descargar resultados anteriores de predicciones</li>
+</ol>
+
+<div class="card mb-4 bg-info bg-opacity-10">
+    <div class="card-header">
+        <i class="fas fa-file-alt me-1"></i>
+        Reportes Anteriores
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="tablaReportesAnteriores" class="display cell-border" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Nombre del Reporte</th>
+                            <th>Fecha Registro</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="reportesBody">
+                     
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: '@Url.Action("ListarReportes", "Mantenedor")',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                  
+                    if (data.mensaje) {
+                        $('#reportesBody').html('<tr><td colspan="3">' + data.mensaje + '</td></tr>');
+                    } else {
+                        var reportesHtml = '';
+                        $.each(data, function (index, reporte) {
+                   
+                            var fechaRegistro = new Date(reporte.FechaRegistro);
+                    
+                            var fechaFormatted = fechaRegistro instanceof Date && !isNaN(fechaRegistro)
+                                ? fechaRegistro.toLocaleDateString('es-MX')
+                                : 'Fecha no válida';
+
+                            reportesHtml += '<tr>' +
+                                                '<td>' + reporte.NombreArchivo + '</td>' +
+                                                '<td>' + fechaFormatted + '</td>' +
+                                                '<td>' +
+                                                    '<a href="@Url.Action("DescargarPDF", "Mantenedor")?id=' + reporte.Id + '" class="btn btn-success btn-sm">' +
+                                                        '<i class="fas fa-download"></i> Descargar' +
+                                                    '</a>' +
+                                                '</td>' +
+                                            '</tr>';
+                        });
+                        $('#reportesBody').html(reportesHtml);
+                    }
+                },
+                error: function () {
+                    $('#reportesBody').html('<tr><td colspan="3">Ocurrió un error al cargar los reportes.</td></tr>');
+                }
+            });
+        });
+    </script>
+}

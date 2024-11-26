@@ -21,4 +21,12 @@ namespace CapaEntidad
         public string Mes { get; set; }
         public bool PermitirReversion { get; set; } 
     }
+
+    public class ReportePDF
+    {
+        public int Id { get; set; }
+        public string NombreArchivo { get; set; }
+        public byte[] Archivo { get; set; }
+        public DateTime? FechaRegistro { get; set; }
+    }
 }

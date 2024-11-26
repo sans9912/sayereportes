@@ -31,21 +31,29 @@ namespace CapaPresentacionAdmin.Controllers
         {
             return View();
         }
-    
+
         [HttpPost]
         public async Task<ActionResult> Index(string correo, string clave)
         {
             Usuario oUsuario = new Usuario();
             Usuario oUsuario1 = new Usuario();
 
-            oUsuario = new CN_Usuarios().Listar().Where(u => u.Correo == correo && u.Clave == CN_Recursos.ConvertirSha256(clave)).FirstOrDefault();
-            oUsuario1 = new CN_Usuarios().Listar().Where(us => us.Correo == correo).FirstOrDefault();
+            string correoLower = correo.ToLower();
+
+            oUsuario = new CN_Usuarios()
+                .Listar()
+                .Where(u => u.Correo.ToLower() == correoLower && u.Clave == CN_Recursos.ConvertirSha256(clave))
+                .FirstOrDefault();
+
+            oUsuario1 = new CN_Usuarios()
+                .Listar()
+                .Where(us => us.Correo.ToLower() == correoLower)
+                .FirstOrDefault();
 
             FechaController fechaController = new FechaController();
 
             if (oUsuario1 != null && oUsuario1.Clave != CN_Recursos.ConvertirSha256(clave))
             {
-               
                 DateTime horaLocal = await fechaController.ObtenerFechaHoraAsync();
                 string mensajeEvento = string.Empty;
                 Eventos oEventoIncorrecto = new Eventos
@@ -55,8 +63,6 @@ namespace CapaPresentacionAdmin.Controllers
                     fechaRegistro = horaLocal
                 };
                 new CN_Eventos().Registrar(oEventoIncorrecto, out mensajeEvento);
-
-                
             }
 
             if (oUsuario == null)
@@ -72,7 +78,7 @@ namespace CapaPresentacionAdmin.Controllers
                     return RedirectToAction("CambiarClave");
                 }
 
-                if (oUsuario.Activo == false)
+                if (!oUsuario.Activo)
                 {
                     ViewBag.Error = "Usuario inactivo";
                     return View();
@@ -192,39 +198,31 @@ namespace CapaPresentacionAdmin.Controllers
         [HttpPost]
         public ActionResult Reestablecer(string correo)
         {
+            string correoLower = correo.ToLower();
 
             Usuario ousurio = new Usuario();
 
-            ousurio = new CN_Usuarios().Listar().Where(item => item.Correo == correo).FirstOrDefault();
+            ousurio = new CN_Usuarios().Listar().Where(item => item.Correo.ToLower() == correoLower).FirstOrDefault();
 
             if (ousurio == null)
             {
-
-
-                ViewBag.Error = "No se encontro un usuario relacionado a ese correo";
+                ViewBag.Error = "No se encontró un usuario relacionado a ese correo";
                 return View();
             }
-
 
             string mensaje = string.Empty;
             bool respuesta = new CN_Usuarios().ReestablecerClave(ousurio.IdUsuario, correo, out mensaje);
 
             if (respuesta)
             {
-
                 ViewBag.Error = null;
                 return RedirectToAction("Index", "Acceso");
-
             }
             else
             {
-
                 ViewBag.Error = mensaje;
                 return View();
             }
-
-
-
         }
 
         public ActionResult CerrarSesion()

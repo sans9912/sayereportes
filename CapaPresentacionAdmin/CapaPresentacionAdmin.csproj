@@ -589,11 +589,13 @@
     <Content Include="Views\Home\CrearUsuario.cshtml" />
     <Content Include="Views\Acceso\Bloqueado.cshtml" />
     <Content Include="Views\Mantenedor\Dashboard.cshtml" />
+    <Content Include="Views\Mantenedor\ResAnteriores.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="assets\" />
     <Folder Include="Models\" />
+    <Folder Include="ReportesPrevios\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

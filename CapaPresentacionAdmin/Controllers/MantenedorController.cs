@@ -18,19 +18,21 @@ using System.Configuration;
 using System.Net.Http.Headers;
 using System.Net.Http;
 using DocumentFormat.OpenXml.Drawing;
+using System.Net;
+using DocumentFormat.OpenXml.Bibliography;
 
 
 
 
 namespace CapaPresentacionAdmin.Controllers
 {
-    
+
     [Authorize]
     public class MantenedorController : Controller
     {
 
         private CN_Reportes capaNegocio = new CN_Reportes();
-        //[PermisosRol(CapaEntidad.Rol.JefeDeVentas)]
+      
 
         public ActionResult Subida()
         {
@@ -42,6 +44,10 @@ namespace CapaPresentacionAdmin.Controllers
             return View();
         }
 
+        public ActionResult ResAnteriores()
+        {
+            return View();
+        }
 
         public async Task<JsonResult> ObtenerDatosDashboard()
         {
@@ -55,6 +61,12 @@ namespace CapaPresentacionAdmin.Controllers
                     return Json(new { success = false, message = "No se encontraron tendencias mensuales." });
                 }
 
+                string proximoMes = capaNegocio.ObtenerProximoMes(out mensaje);
+                if (string.IsNullOrEmpty(proximoMes))
+                {
+                    return Json(new { success = false, message = mensaje });
+                }
+
                 string prediccionJson = await ObtenerPredicciones();
                 var predicciones = JsonConvert.DeserializeObject<Predicciones>(prediccionJson);
                 if (predicciones == null)
@@ -62,8 +74,6 @@ namespace CapaPresentacionAdmin.Controllers
                     return Json(new { success = false, message = "No se pudieron obtener las predicciones." });
                 }
 
-             
-                var proximoMes = DateTime.Now.ToString("MMMM yyyy");
                 tendencias.Add(new
                 {
                     Mes = proximoMes,
@@ -112,7 +122,7 @@ namespace CapaPresentacionAdmin.Controllers
                     return Json(new { success = false, message = "No se encontraron datos de los productos con mayor utilidad." });
                 }
 
-                // En lugar de serializar, solo devolver la lista
+           
                 return Json(new { success = true, datos = productosUtilidad }, JsonRequestBehavior.AllowGet);
             }
             catch (Exception ex)
@@ -462,6 +472,88 @@ namespace CapaPresentacionAdmin.Controllers
             }
         }
 
+        public async Task<JsonResult> GuardarReporte()
+        {
+            try
+            {
+                if (Request.Files.Count == 0 || Request.Files[0] == null)
+                {
+                    return Json(new { success = false, message = "No se recibió ningún archivo." });
+                }
+
+                var file = Request.Files[0];
+
+                if (file.ContentLength == 0 || file.ContentType != "application/pdf")
+                {
+                    return Json(new { success = false, message = "El archivo no es un PDF o está vacío." });
+                }
+
+                byte[] archivoData;
+                using (var binaryReader = new BinaryReader(file.InputStream))
+                {
+                    archivoData = binaryReader.ReadBytes(file.ContentLength);
+                }
+
+                string nombreArchivo = file.FileName;
+
+                CN_Reportes capaNegocio = new CN_Reportes();
+                string mensaje = string.Empty;
+
+                int resultado = capaNegocio.GuardarPDF(archivoData, nombreArchivo, out mensaje);
+ 
+                if (resultado > 0)
+                {
+                    return Json(new { success = true, message = "El archivo PDF se guardó correctamente." });
+                }
+                else
+                {
+                    return Json(new { success = false, message = "Error al guardar el archivo PDF en la base de datos." });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Error al procesar el archivo: " + ex.Message });
+            }
+        }
+
+        public JsonResult ListarReportes()
+        {
+            CN_Reportes capaNegocio = new CN_Reportes();
+            var reportes = capaNegocio.ObtenerReportes()
+                                      .OrderByDescending(r => r.FechaRegistro)
+                                      .ToList();
+
+            if (reportes == null || !reportes.Any())
+            {
+                return Json(new { mensaje = "No se encontraron reportes para mostrar." }, JsonRequestBehavior.AllowGet);
+            }
+
+
+            var reportesConFechaISO = reportes.Select(r => new
+            {
+                r.Id,
+                r.NombreArchivo,
+                FechaRegistro = r.FechaRegistro?.ToString("yyyy-MM-ddTHH:mm:ss") 
+            }).ToList();
+
+            return Json(reportesConFechaISO, JsonRequestBehavior.AllowGet);
+        }
+
+        public ActionResult DescargarPDF(int id)
+        {
+            CN_Reportes capaNegocio = new CN_Reportes();
+            var reporte = capaNegocio.ObtenerReportePorId(id); 
+            if (reporte != null)
+            {
+                return File(reporte.Archivo, "application/pdf", reporte.NombreArchivo);
+            }
+            else
+            {
+                return HttpNotFound();
+            }
+        }
+
+        
     }
 
 }

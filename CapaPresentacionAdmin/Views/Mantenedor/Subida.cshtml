@@ -2,9 +2,10 @@
     ViewBag.Title = "Subida";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <ol class="breadcrumb mb-4 mt-4">
     <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Mantemiento</a></li>
-    <li class="breadcrumb-item ac.-tive">Subir reporte</li>
+    <li class="breadcrumb-item active">Subir reporte</li>
 </ol>
 
 <div class="card">
@@ -51,14 +52,26 @@
     </div>
 </div>
 
+<div class="modal fade" id="loadingModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                    <span class="visually-hidden">Cargando...</span>
+                </div>
+                <p class="mt-3">Procesando, no cierre la página...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 @section scripts{
     <script>
-        var solicitudEnCurso = false; 
+        var solicitudEnCurso = false;
 
         $(document).ready(function () {
             cargarReportes();
 
-           
             $("#btnSubir").off("click").click(function () {
                 if (solicitudEnCurso) {
                     swal("Espere", "Ya hay una solicitud en curso, por favor espere.", "info");
@@ -81,16 +94,8 @@
                 var request = new FormData();
                 request.append("fileExcel", archivo);
 
-                $("#procesandoText").show();
+                mostrarModalCarga();
 
-                var dots = $("#dots");
-                var count = 0;
-                var interval = setInterval(function () {
-                    dots.text(".".repeat(count % 4));
-                    count++;
-                }, 500);
-
-               
                 solicitudEnCurso = true;
 
                 jQuery.ajax({
@@ -100,8 +105,7 @@
                     processData: false,
                     contentType: false,
                     success: function (data) {
-                        $("#procesandoText").hide();
-                        clearInterval(interval);
+                        ocultarModalCarga();
 
                         if (data.resultado) {
                             swal("Subida Exitosa", data.mensaje, "success");
@@ -110,14 +114,13 @@
                         }
 
                         cargarReportes();
-                        solicitudEnCurso = false; 
+                        solicitudEnCurso = false;
                     },
                     error: function (error) {
-                        $("#procesandoText").hide();
-                        clearInterval(interval);
+                        ocultarModalCarga();
                         swal("Error de archivo", "El archivo no se subió correctamente", "error");
                         console.log(error);
-                        solicitudEnCurso = false; 
+                        solicitudEnCurso = false;
                     }
                 });
             });
@@ -181,6 +184,14 @@
                     console.log(error);
                 }
             });
+        }
+
+        function mostrarModalCarga() {
+            $('#loadingModal').modal('show');
+        }
+
+        function ocultarModalCarga() {
+            $('#loadingModal').modal('hide');
         }
     </script>
 }
